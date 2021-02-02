@@ -1,8 +1,9 @@
 #ifndef gameScene_h
 #define gameScene_h
 
-#include "overworld.h"
-#include "dungeons.h"
+
+#include "office4.h"
+#include "officex.h"
 #include "tileRoom.h"
 #include "inGameMenu.h"
 #include "hud.h"
@@ -13,6 +14,8 @@ const uint8_t MAX_ENTITIES = 8;
 
 const uint8_t OVERWORLD_WIDTH_IN_ROOMS = 7;
 const uint8_t OVERWORLD_HEIGHT_IN_ROOMS = 6;
+const uint8_t OFFICE4_WIDTH_IN_ROOMS = 7;
+const uint8_t OFFICE4_HEIGHT_IN_ROOMS = 6;
 const uint8_t DUNGEONS_WIDTH_IN_ROOMS = 8;
 
 enum ChestState: uint8_t {
