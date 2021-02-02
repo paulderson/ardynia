@@ -12,11 +12,9 @@
 
 const uint8_t MAX_ENTITIES = 8;
 
-const uint8_t OVERWORLD_WIDTH_IN_ROOMS = 7;
-const uint8_t OVERWORLD_HEIGHT_IN_ROOMS = 6;
 const uint8_t OFFICE4_WIDTH_IN_ROOMS = 7;
 const uint8_t OFFICE4_HEIGHT_IN_ROOMS = 6;
-const uint8_t DUNGEONS_WIDTH_IN_ROOMS = 8;
+const uint8_t OFFICEX_WIDTH_IN_ROOMS = 8;  // Even though this was renamed from Dungeon to OfficeX, most of the source code will refer to this as a Dungeon
 
 enum ChestState: uint8_t {
     AllChestsOpenCorrectly,

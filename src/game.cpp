@@ -45,15 +45,11 @@ void Game::loadSave(bool straightToPlay) {
         entityDefs = office4_entities;
         doorDefs = office4_teleporters;
         mapWidthInRooms = OFFICE4_WIDTH_IN_ROOMS;
-        // TileRoom::map = overworld_map;
-        // entityDefs = overworld_entities;
-        // doorDefs = overworld_teleporters;
-        // mapWidthInRooms = OVERWORLD_WIDTH_IN_ROOMS;
     } else {
-        TileRoom::map = dungeons_map;
-        entityDefs = dungeons_entities;
-        doorDefs = dungeons_teleporters;
-        mapWidthInRooms = DUNGEONS_WIDTH_IN_ROOMS;
+        TileRoom::map = officex_map;
+        entityDefs = officex_entities;
+        doorDefs = officex_teleporters;
+        mapWidthInRooms = OFFICEX_WIDTH_IN_ROOMS;
     }
 
     TileRoom::x = pgm_read_byte(startingRooms + State::gameState.currentDungeon * 2);
@@ -117,14 +113,14 @@ void Game::updateTeleportTransition(uint8_t frame) {
     teleportTransitionCount -= 1;
 
     if (teleportTransitionCount == WIDTH / 4) {
-        entityDefs = entityDefs == dungeons_entities ? office4_entities : dungeons_entities;
-        doorDefs = doorDefs == dungeons_teleporters ? office4_teleporters : dungeons_teleporters;
-        TileRoom::map = TileRoom::map == dungeons_map ? office4_map : dungeons_map;
+        entityDefs = entityDefs == officex_entities ? office4_entities : officex_entities;
+        doorDefs = doorDefs == officex_teleporters ? office4_teleporters : officex_teleporters;
+        TileRoom::map = TileRoom::map == officex_map ? office4_map : officex_map;
 
         // if the next room X is a multiple of three, the user 
         // is going into a dungeon, otherwise they are going into a secret room
         // only save current dungeon if actually going into a dungeon
-        if ((TileRoom::map == dungeons_map && nextRoomX % 3 == 0) || TileRoom::map == office4_map) {
+        if ((TileRoom::map == officex_map && nextRoomX % 3 == 0) || TileRoom::map == office4_map) {
             State::gameState.currentDungeon = State::gameState.currentDungeon == 0 ? nextRoomX / 3 + 1 : 0;
         } else {
             // 4 to indicate "secret room"
@@ -134,7 +130,7 @@ void Game::updateTeleportTransition(uint8_t frame) {
         }
         
 
-        mapWidthInRooms = State::isInDungeon() ? DUNGEONS_WIDTH_IN_ROOMS : OFFICE4_WIDTH_IN_ROOMS;
+        mapWidthInRooms = State::isInDungeon() ? OFFICEX_WIDTH_IN_ROOMS : OFFICE4_WIDTH_IN_ROOMS;
         TileRoom::x = nextRoomX;
         TileRoom::y = nextRoomY;
 
