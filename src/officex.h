@@ -6,427 +6,159 @@
 #include "entityExpressions.h"
 
 
-const uint8_t PROGMEM officex_map[795] = {
+const uint8_t PROGMEM officex_map[461] = {
     // array length (16 bit, little endian), map width, map height (in rooms)
-    27, 3, 8, 8,
+    205, 1, 8, 8,
     // room indices (16 bit, little endian), 128 bytes
     // room 0, index 0
     0, 0,
-    // room 1, index 11
+    // room 1, index 3
+    3, 0,
+    // room 2, index 7
+    7, 0,
+    // room 3, index 11
     11, 0,
-    // room 2, index 20
-    20, 0,
-    // room 3, index 27
-    27, 0,
-    // room 4, index 37
-    37, 0,
-    // room 5, index 51
+    // room 4, index 17
+    17, 0,
+    // room 5, index 23
+    23, 0,
+    // room 6, index 32
+    32, 0,
+    // room 7, index 35
+    35, 0,
+    // room 8, index 46
+    46, 0,
+    // room 9, index 51
     51, 0,
-    // room 6, index 63
-    63, 0,
-    // room 7, index 76
+    // room 10, index 64
+    64, 0,
+    // room 11, index 67
+    67, 0,
+    // room 12, index 70
+    70, 0,
+    // room 13, index 73
+    73, 0,
+    // room 14, index 76
     76, 0,
-    // room 8, index 84
-    84, 0,
-    // room 9, index 96
+    // room 15, index 79
+    79, 0,
+    // room 16, index 86
+    86, 0,
+    // room 17, index 89
+    89, 0,
+    // room 18, index 93
+    93, 0,
+    // room 19, index 96
     96, 0,
-    // room 10, index 110
-    110, 0,
-    // room 11, index 120
-    120, 0,
-    // room 12, index 128
-    128, 0,
-    // room 13, index 142
-    142, 0,
-    // room 14, index 154
+    // room 20, index 99
+    99, 0,
+    // room 21, index 106
+    106, 0,
+    // room 22, index 115
+    115, 0,
+    // room 23, index 118
+    118, 0,
+    // room 24, index 121
+    121, 0,
+    // room 25, index 124
+    124, 0,
+    // room 26, index 127
+    127, 0,
+    // room 27, index 130
+    130, 0,
+    // room 28, index 133
+    133, 0,
+    // room 29, index 145
+    145, 0,
+    // room 30, index 154
     154, 0,
-    // room 15, index 161
-    161, 0,
-    // room 16, index 172
+    // room 31, index 157
+    157, 0,
+    // room 32, index 160
+    160, 0,
+    // room 33, index 163
+    163, 0,
+    // room 34, index 166
+    166, 0,
+    // room 35, index 169
+    169, 0,
+    // room 36, index 172
     172, 0,
-    // room 17, index 183
-    183, 0,
-    // room 18, index 192
-    192, 0,
-    // room 19, index 202
-    202, 0,
-    // room 20, index 211
-    211, 0,
-    // room 21, index 218
+    // room 37, index 182
+    182, 0,
+    // room 38, index 185
+    185, 0,
+    // room 39, index 188
+    188, 0,
+    // room 40, index 191
+    191, 0,
+    // room 41, index 194
+    194, 0,
+    // room 42, index 197
+    197, 0,
+    // room 43, index 200
+    200, 0,
+    // room 44, index 207
+    207, 0,
+    // room 45, index 218
     218, 0,
-    // room 22, index 228
-    228, 0,
-    // room 23, index 240
-    240, 0,
-    // room 24, index 252
-    252, 0,
-    // room 25, index 263
-    7, 1,
-    // room 26, index 272
-    16, 1,
-    // room 27, index 283
-    27, 1,
-    // room 28, index 293
+    // room 46, index 221
+    221, 0,
+    // room 47, index 224
+    224, 0,
+    // room 48, index 227
+    227, 0,
+    // room 49, index 230
+    230, 0,
+    // room 50, index 233
+    233, 0,
+    // room 51, index 236
+    236, 0,
+    // room 52, index 239
+    239, 0,
+    // room 53, index 251
+    251, 0,
+    // room 54, index 258
+    2, 1,
+    // room 55, index 270
+    14, 1,
+    // room 56, index 281
+    25, 1,
+    // room 57, index 284
+    28, 1,
+    // room 58, index 287
+    31, 1,
+    // room 59, index 290
+    34, 1,
+    // room 60, index 293
     37, 1,
-    // room 29, index 305
-    49, 1,
-    // room 30, index 315
-    59, 1,
-    // room 31, index 323
-    67, 1,
-    // room 32, index 334
-    78, 1,
-    // room 33, index 346
-    90, 1,
-    // room 34, index 357
-    101, 1,
-    // room 35, index 367
-    111, 1,
-    // room 36, index 377
-    121, 1,
-    // room 37, index 387
-    131, 1,
-    // room 38, index 397
-    141, 1,
-    // room 39, index 409
-    153, 1,
-    // room 40, index 420
-    164, 1,
-    // room 41, index 430
-    174, 1,
-    // room 42, index 439
-    183, 1,
-    // room 43, index 449
-    193, 1,
-    // room 44, index 463
-    207, 1,
-    // room 45, index 475
-    219, 1,
-    // room 46, index 483
-    227, 1,
-    // room 47, index 495
-    239, 1,
-    // room 48, index 505
-    249, 1,
-    // room 49, index 514
-    2, 2,
-    // room 50, index 524
-    12, 2,
-    // room 51, index 529
-    17, 2,
-    // room 52, index 540
-    28, 2,
-    // room 53, index 552
-    40, 2,
-    // room 54, index 559
-    47, 2,
-    // room 55, index 571
-    59, 2,
-    // room 56, index 582
-    70, 2,
-    // room 57, index 595
-    83, 2,
-    // room 58, index 607
-    95, 2,
-    // room 59, index 616
-    104, 2,
-    // room 60, index 626
-    114, 2,
-    // room 61, index 635
-    123, 2,
-    // room 62, index 644
-    132, 2,
-    // room 63, index 652
-    140, 2,
+    // room 61, index 298
+    42, 1,
+    // room 62, index 308
+    52, 1,
+    // room 63, index 321
+    65, 1,
 
-    // compressed room data, 663 bytes
-    0x1f, 0x1b, 0x92, 0xf1, 0xc, 0x2f, 0x20, 0x44, 0x40, 0x44, 0x40, 0x1f, 0x1b, 0x42, 0xf1, 0x4, 0xf3, 0x8, 0xf1, 0x34, 0xf5, 0x4f, 0x10, 0x4f, 0x20, 0xf3, 0x40, 0x4f, 0x1b, 0x4f, 0x20, 0x4f, 0x20, 0x44, 0xf0, 0x30, 0x40, 0x44, 0x46, 0x64, 0x44, 0x4, 0x66, 0x40, 0x4f, 0x0, 0x40, 0x40, 0x40, 0x4, 0x0, 0x4b, 0xb6, 0xbb, 0x40, 0x0, 0x60, 0x4, 0xf0, 0x6f, 0x20, 0x60, 0x4, 0x4b, 0xbb, 0x4b, 0x44, 0x4, 0xf2, 0x4, 0x4, 0x4, 0x43, 0x40, 0x44, 0x40, 0x4b, 0xf1, 0x4f, 0x20, 0x44, 0xf1, 0xf, 0x44, 0x44, 0x10, 0x94, 0x44, 0xf1, 0x4, 0x44, 0xf0, 0xf, 0x4, 0xa, 0x44, 0x1b, 0xb6, 0x44, 0x42, 0x0, 0x60, 0x0, 0x20, 0x6, 0x0, 0xf0, 0x46, 0x44, 0x40, 0x1f, 0x1b, 0x9f, 0x20, 0xcf, 0x30, 0x83, 0x30, 0x33, 0xa0, 0x1f, 0xb, 0x4, 0x2f, 0x90, 0x8f, 0x3, 0x4, 0x40, 0x40, 0x4, 0x0, 0x4, 0x0, 0x40, 0x0, 0xf0, 0x40, 0x43, 0x30, 0x33, 0x30, 0x0, 0x6, 0x0, 0x90, 0x0, 0x60, 0xc, 0x0, 0x6, 0x5f, 0x40, 0x40, 0x4b, 0xbb, 0xf0, 0x4f, 0x60, 0xf6, 0x40, 0x1f, 0x1b, 0x9f, 0x20, 0xc2, 0xf1, 0xc, 0x83, 0x30, 0x33, 0xa0, 0x44, 0x40, 0x44, 0x42, 0xf2, 0x2, 0xf1, 0xc, 0x8f, 0x13, 0xa0, 0x1f, 0x1b, 0x9f, 0x20, 0xc2, 0xf2, 0x8, 0xf1, 0x3a, 0x1b, 0xb0, 0xbb, 0x92, 0xf1, 0xc, 0xf3, 0x2, 0xf1, 0xc, 0xf1, 0x40, 0x44, 0xf1, 0x4, 0xf3, 0x4, 0xf1, 0x34, 0xfa, 0x6f, 0x30, 0x66, 0x60, 0x66, 0x60, 0x2f, 0x10, 0x42, 0xf1, 0x4, 0x2f, 0x20, 0x4f, 0x10, 0x40, 0xf0, 0x46, 0xbf, 0x4, 0x6, 0x4, 0xf0, 0x5, 0xf, 0x14, 0x63, 0x40, 0x44, 0x40, 0xf0, 0x4f, 0x10, 0x42, 0xf1, 0xc, 0x44, 0x40, 0x44, 0x40, 0x1f, 0x1b, 0x92, 0xf2, 0x2, 0xf1, 0xc, 0x44, 0x40, 0x44, 0x40, 0x1f, 0x1b, 0x9f, 0x30, 0x2f, 0x10, 0xc8, 0xf1, 0x3a, 0x2f, 0x10, 0xcf, 0x20, 0xc6, 0x66, 0x0, 0xc, 0x8f, 0x3, 0x4, 0x66, 0xf1, 0x2, 0xf2, 0x2, 0xf2, 0x8, 0x33, 0x3, 0x30, 0x66, 0x60, 0xf2, 0x60, 0x64, 0x46, 0x66, 0xf0, 0x6, 0x66, 0x6, 0x44, 0x1f, 0x10, 0x4f, 0x20, 0xc2, 0xf1, 0xc, 0x8f, 0x13, 0xa0, 0xf8, 0x40, 0x44, 0x4f, 0x0, 0x44, 0xf1, 0x4, 0x44, 0x40, 0x44, 0x4f, 0x20, 0xc4, 0xf1, 0xc, 0x4f, 0x13, 0xa0, 0x1b, 0xb0, 0xbb, 0x92, 0xf1, 0xc, 0x2f, 0x10, 0xc8, 0x33, 0x3, 0x3a, 0x1f, 0x1b, 0x92, 0xf1, 0xc, 0x2f, 0x10, 0xc8, 0x33, 0x3, 0x3a, 0x1f, 0xb, 0x4, 0x2f, 0x10, 0x42, 0xf2, 0x8, 0xf1, 0x3a, 0x44, 0x40, 0xf2, 0x40, 0x44, 0x4f, 0x20, 0xc8, 0xf1, 0x3a, 0x66, 0x60, 0xf2, 0x60, 0xf2, 0x60, 0xf2, 0x60, 0x66, 0x60, 0x4f, 0x1b, 0x42, 0xf2, 0x2, 0xf1, 0x4, 0x4f, 0x13, 0x40, 0x4f, 0x10, 0x40, 0x6, 0x66, 0xc, 0x40, 0x66, 0x60, 0xc4, 0xf1, 0xc, 0x44, 0xf1, 0x64, 0x4f, 0x0, 0x64, 0xf1, 0x6, 0x40, 0xf1, 0x40, 0x1b, 0xb0, 0xbb, 0xb2, 0xf2, 0x2, 0xf2, 0x8, 0xf1, 0x3a, 0xf2, 0xb9, 0xf2, 0xc, 0xf2, 0xc, 0x8f, 0x10, 0xc0, 0x1f, 0x1b, 0x92, 0xf1, 0xc, 0x2f, 0x20, 0x8f, 0x13, 0xa0, 0x1b, 0xb6, 0xbb, 0x42, 0x0, 0x50, 0x44, 0x0, 0x5, 0x4, 0x8, 0x33, 0x63, 0x44, 0x66, 0x60, 0xf2, 0x60, 0x66, 0x6f, 0x0, 0x66, 0x60, 0x66, 0x6, 0x66, 0xf3, 0x4f, 0x20, 0xc8, 0xf1, 0xc, 0xf3, 0x40, 0x4f, 0x10, 0xc2, 0x4, 0x44, 0xc, 0x20, 0x40, 0x40, 0xc8, 0xf1, 0xc, 0x44, 0x4b, 0xf2, 0x40, 0xf2, 0x40, 0xf2, 0x40, 0x44, 0x40, 0x1f, 0x1b, 0x92, 0xf2, 0x2, 0xf2, 0x8, 0xf1, 0x3a, 0x1f, 0x10, 0xcf, 0x20, 0xcf, 0x30, 0x20, 0x0, 0x66, 0x60, 0xfa, 0x4f, 0x30, 0xf3, 0x40, 0x4b, 0xb6, 0xbb, 0x2, 0x0, 0x6f, 0x20, 0x60, 0x0, 0xf2, 0x40, 0x6, 0x60, 0x66, 0x64, 0x66, 0x6, 0x66, 0x46, 0x6f, 0x0, 0xf3, 0x40, 0x1f, 0x1b, 0x42, 0xf9, 0x8, 0xf2, 0x30, 0x4f, 0x10, 0xc4, 0x40, 0x40, 0x4c, 0x0, 0x4, 0x0, 0xc3, 0xf1, 0x4, 0x1f, 0x1b, 0x92, 0xf1, 0xc, 0x2f, 0x10, 0xc8, 0x33, 0x3, 0x3a, 0x1b, 0x6f, 0xb, 0x20, 0x6f, 0x0, 0x20, 0x6f, 0x0, 0x83, 0x60, 0x33, 0x30, 0xf0, 0x6, 0x66, 0xf0, 0x6, 0xc, 0xf0, 0x5, 0xc, 0xf0, 0x35, 0x3a, 0x44, 0xf0, 0xb4, 0x4f, 0x20, 0x4f, 0x10, 0xf4, 0x40, 0xf2, 0x40, 0x4f, 0x20, 0x4f, 0x10, 0xf0, 0x40, 0x44, 0x40, 0x1f, 0x1b, 0x9f, 0x30, 0x4f, 0x20, 0x4f, 0x13, 0x40, 0x44, 0xf0, 0xb4, 0xf2, 0x4, 0x4, 0xf1, 0xf, 0x34, 0x4f, 0x10, 0x44, 0xf8, 0x4, 0x4f, 0x13, 0x40, 0x4f, 0x1b, 0x4f, 0x20, 0x44, 0xf0, 0x4, 0x44, 0xf0, 0x34, 0x40
+    // compressed room data, 329 bytes
+    0xff, 0xf, 0x50, 0xff, 0xf, 0x30, 0x66, 0xff, 0x0, 0xf, 0x36, 0xff, 0x0, 0xf, 0x6, 0x44, 0x40, 0xf1, 0x4, 0x4f, 0xa0, 0xf3, 0x40, 0x1f, 0x1b, 0x9f, 0x20, 0xcf, 0x30, 0x8f, 0x13, 0xa0, 0xff, 0xf, 0x50, 0x1f, 0x1b, 0x92, 0xf1, 0xc, 0xf2, 0xc, 0x83, 0x30, 0x33, 0xa0, 0xf4, 0x6f, 0x90, 0xf3, 0x60, 0x66, 0x60, 0x6, 0x6, 0x60, 0x6, 0xf1, 0x6, 0x0, 0x6, 0x66, 0xf0, 0x0, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0x0, 0x40, 0x4f, 0x0, 0x44, 0x4f, 0xc0, 0xfa, 0x6f, 0xa0, 0xf4, 0x6f, 0xf0, 0x0, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xfd, 0x6f, 0x0, 0x66, 0x60, 0x66, 0x60, 0xf3, 0x4, 0x4f, 0x20, 0x4f, 0x10, 0x44, 0xf1, 0x0, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0x66, 0x60, 0xf2, 0x60, 0x64, 0x46, 0x66, 0xf0, 0x6, 0x66, 0x6, 0x44, 0x1f, 0x20, 0x44, 0xf2, 0x4, 0xf1, 0x4, 0x4f, 0x10, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0x66, 0x60, 0xf2, 0x60, 0xf2, 0x60, 0xf2, 0x60, 0x66, 0x60, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xf8, 0x4, 0x4f, 0x10, 0x4f, 0x20, 0x44, 0x66, 0x60, 0xf2, 0x60, 0x66, 0x6f, 0x0, 0xf2, 0x60, 0x66, 0x60, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0x66, 0x60, 0x66, 0x64, 0x66, 0x6, 0x66, 0x46, 0x6f, 0x0, 0xf3, 0x40, 0xf4, 0x4f, 0x80, 0x64, 0x66, 0x60, 0x66, 0x4b, 0xbb, 0x6b, 0x9f, 0x0, 0x60, 0xcf, 0x16, 0x0, 0xf1, 0x60, 0x60, 0xf0, 0x46, 0x44, 0xf0, 0x6, 0xc, 0xf0, 0x6, 0xc, 0xf3, 0x60, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0xff, 0xf, 0x50, 0x1f, 0x1b, 0x9f, 0xf0, 0x0, 0x4f, 0x10, 0x64, 0xf1, 0x6, 0x4f, 0x20, 0xf0, 0x46, 0x66, 0x60, 0x0, 0x60, 0xb6, 0x6, 0x6, 0x66, 0x0, 0x6f, 0x0, 0x66, 0xf1, 0x40, 0xf2, 0xb4, 0xf1, 0x60, 0x4f, 0x20, 0xf4, 0x40
 };
-
-const uint8_t PROGMEM officex_room0_0[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, TRIGGER_DOOR),
-    xy(56, 60),
-
-    // entity 1
-    miscAndEntityType(0, POT),
-    xy(16, 40),
-
-    // entity 2
-    miscAndEntityType(0, LOCK),
-    xy(48, 48),
-};
-
-
 
 const uint8_t PROGMEM officex_room0_1[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, TRIGGER_DOOR),
-    xy(48, 60),
-
-    // entity 1
-    miscAndEntityType(SLAM_SHUT, SNAKE),
-    xy(80, 36),
-
-    // entity 2
-    miscAndEntityType(SLAM_SHUT, SNAKE),
-    xy(16, 20),
-
-    // entity 3
-    miscAndEntityType(SLAM_SHUT, SNAKE),
-    xy(32, 36),
-
-    // entity 4
-    miscAndEntityType(SLAM_SHUT, SNAKE),
-    xy(64, 44),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_2[] = {
     1, // number of entities
 
     // entity 0
-    miscAndEntityType(0, BOSS_LOCK),
-    xy(96, 20),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_3[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, CHEST),
-    xy(48, 20),
-
-    // entity 1
-    miscAndEntityType(0, CHEST),
-    xy(80, 20),
-
-    // entity 2
-    miscAndEntityType(0, CHEST),
-    xy(16, 20),
-
-    // entity 3
-    miscAndEntityType(OPEN_CHESTS_IN_RIGHT_ORDER, SUNKEN_BRIDGE),
-    xy(8, 40),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_4[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, TRIGGER_DOOR),
-    xy(48, 56),
-
-    // entity 1
-    miscAndEntityType(0, TRIGGER_DOOR),
-    xy(48, 0),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_5[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, POT),
-    xy(16, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_6[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(KEY, POT),
-    xy(16, 28),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(48, 52),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(32, 8),
-};
-
-
-
-const uint8_t PROGMEM officex_room0_7[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, TELEPORTER),
-    xy(48, 60),
-
-    // entity 1
-    miscAndEntityType(KEY, CHEST),
-    xy(16, 16),
-
-    // entity 2
-    miscAndEntityType(0, SWITCH),
-    xy(16, 44),
-
-    // entity 3
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(32, 32),
-
-    // entity 4
-    miscAndEntityType(0, POT),
-    xy(72, 48),
+    miscAndEntityType(3, TELEPORTER),
+    xy(8, 36),
 };
 
 
 
 const uint8_t PROGMEM officex_room1_0[] = {
-    7, // number of entities
+    1, // number of entities
 
     // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(0, 32),
-
-    // entity 1
-    miscAndEntityType(0, POT),
-    xy(64, 16),
-
-    // entity 2
     miscAndEntityType(0, BAT),
     xy(24, 12),
-
-    // entity 3
-    miscAndEntityType(0, BAT),
-    xy(48, 52),
-
-    // entity 4
-    miscAndEntityType(0, BAT),
-    xy(32, 28),
-
-    // entity 5
-    miscAndEntityType(0, BAT),
-    xy(88, 8),
-
-    // entity 6
-    miscAndEntityType(0, BAT),
-    xy(56, 12),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_1[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(HEART, CHEST),
-    xy(16, 16),
-
-    // entity 1
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(48, 16),
-
-    // entity 2
-    miscAndEntityType(0, SWITCH),
-    xy(32, 32),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_2[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(SLAM_SHUT, NEMESIS),
-    xy(88, 20),
-
-    // entity 1
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(0, 16),
-
-    // entity 2
-    miscAndEntityType(0, POT),
-    xy(32, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_3[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(96, 16),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_4[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(2, TELEPORTER),
-    xy(48, 60),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_5[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, POT),
-    xy(96, 20),
-
-    // entity 1
-    miscAndEntityType(0, BAT),
-    xy(48, 8),
-
-    // entity 2
-    miscAndEntityType(0, BAT),
-    xy(80, 20),
-
-    // entity 3
-    miscAndEntityType(LAST_ENEMY_HAS_KEY, BAT),
-    xy(96, 36),
-
-    // entity 4
-    miscAndEntityType(0, BAT),
-    xy(0, 60),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_6[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(96, 32),
-};
-
-
-
-const uint8_t PROGMEM officex_room1_7[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, BLOB),
-    xy(96, 36),
-
-    // entity 1
-    miscAndEntityType(0, BLOB),
-    xy(96, 44),
-
-    // entity 2
-    miscAndEntityType(KEY, CHEST),
-    xy(80, 24),
 };
 
 
@@ -435,300 +167,32 @@ const uint8_t PROGMEM officex_room2_0[] = {
     1, // number of entities
 
     // entity 0
-    miscAndEntityType(0, SECRET_WALL),
-    xy(0, 32),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_1[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, TRIGGER_DOOR),
-    xy(48, 60),
-
-    // entity 1
-    miscAndEntityType(SLAM_SHUT, GIANT_BAT),
-    xy(48, 16),
-
-    // entity 2
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(80, 32),
-
-    // entity 3
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(16, 32),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_2[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, BOSS_LOCK),
-    xy(48, 0),
-
-    // entity 1
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(32, 36),
-
-    // entity 2
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(16, 32),
-
-    // entity 3
-    miscAndEntityType(0, SWITCH),
-    xy(32, 8),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_3[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SWITCH),
-    xy(96, 20),
-
-    // entity 1
-    miscAndEntityType(0, SUNKEN_BRIDGE),
-    xy(16, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_4[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(96, 32),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(16, 12),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(40, 52),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_5[] = {
-    7, // number of entities
-
-    // entity 0
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SKELETON),
-    xy(16, 8),
-
-    // entity 1
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SKELETON),
-    xy(16, 52),
-
-    // entity 2
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SNAKE),
+    miscAndEntityType(0, BAT),
     xy(48, 12),
-
-    // entity 3
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, BLOB),
-    xy(56, 52),
-
-    // entity 4
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SNAKE),
-    xy(48, 24),
-
-    // entity 5
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SNAKE),
-    xy(32, 40),
-
-    // entity 6
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SKELETON),
-    xy(32, 52),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_6[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(96, 32),
-
-    // entity 1
-    miscAndEntityType(0, BLOB),
-    xy(56, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room2_7[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SNAKE),
-    xy(48, 32),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(48, 44),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(32, 36),
 };
 
 
 
 const uint8_t PROGMEM officex_room3_0[] = {
-    2, // number of entities
+    1, // number of entities
 
     // entity 0
-    miscAndEntityType(LAST_TORCH_OPENS_DOORS, SPIKE),
-    xy(32, 28),
-
-    // entity 1
-    miscAndEntityType(LAST_TORCH_OPENS_DOORS, SPIKE),
-    xy(64, 48),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_1[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, POT),
-    xy(88, 52),
-
-    // entity 1
-    miscAndEntityType(SLAM_SHUT, GIANT_BAT),
-    xy(16, 20),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_3[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(LAST_ENEMY_HAS_BOSS_KEY, SKELETON),
-    xy(16, 20),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(16, 32),
-
-    // entity 2
-    miscAndEntityType(0, BLOB),
-    xy(88, 20),
-
-    // entity 3
-    miscAndEntityType(0, SNAKE),
-    xy(80, 48),
-
-    // entity 4
-    miscAndEntityType(0, SNAKE),
-    xy(56, 28),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_4[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(48, 0),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(56, 40),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_5[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(0, 32),
-
-    // entity 1
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(104, 16),
-
-    // entity 2
-    miscAndEntityType(SLAM_SHUT, BLOB_MOTHER),
-    xy(16, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_6[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(BOOMERANG, CHEST),
-    xy(32, 24),
-
-    // entity 1
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(0, 32),
-
-    // entity 2
-    miscAndEntityType(0, SWITCH),
-    xy(80, 16),
-};
-
-
-
-const uint8_t PROGMEM officex_room3_7[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SECRET_WALL),
-    xy(0, 16),
-
-    // entity 1
-    miscAndEntityType(0, POT),
-    xy(88, 36),
-
-    // entity 2
-    miscAndEntityType(0, POT),
-    xy(24, 36),
+    miscAndEntityType(0, BAT),
+    xy(48, 12),
 };
 
 
 
 const uint8_t PROGMEM officex_room4_0[] = {
-    3, // number of entities
+    2, // number of entities
 
     // entity 0
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(32, 32),
+    miscAndEntityType(0, BOSS_LOCK),
+    xy(96, 36),
 
     // entity 1
-    miscAndEntityType(LAST_TORCH_OPENS_DOORS, TORCH),
-    xy(16, 24),
-
-    // entity 2
-    miscAndEntityType(0, TORCH),
-    xy(48, 52),
-};
-
-
-
-const uint8_t PROGMEM officex_room4_1[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(KEY, CHEST),
-    xy(48, 12),
+    miscAndEntityType(0, BAT),
+    xy(32, 4),
 };
 
 
@@ -737,7 +201,7 @@ const uint8_t PROGMEM officex_room4_2[] = {
     1, // number of entities
 
     // entity 0
-    miscAndEntityType(3, TELEPORTER),
+    miscAndEntityType(1, TELEPORTER),
     xy(112, 40),
 };
 
@@ -747,8 +211,8 @@ const uint8_t PROGMEM officex_room4_3[] = {
     2, // number of entities
 
     // entity 0
-    miscAndEntityType(1, TELEPORTER),
-    xy(104, 40),
+    miscAndEntityType(0, TELEPORTER),
+    xy(104, 44),
 
     // entity 1
     miscAndEntityType(0, BAT),
@@ -757,496 +221,159 @@ const uint8_t PROGMEM officex_room4_3[] = {
 
 
 
+const uint8_t PROGMEM officex_room4_4[] = {
+    2, // number of entities
+
+    // entity 0
+    miscAndEntityType(0, BAT),
+    xy(16, 16),
+
+    // entity 1
+    miscAndEntityType(0, BAT),
+    xy(104, 44),
+};
+
+
+
 const uint8_t PROGMEM officex_room4_5[] = {
     2, // number of entities
 
     // entity 0
-    miscAndEntityType(5, TELEPORTER),
+    miscAndEntityType(2, TELEPORTER),
     xy(8, 44),
 
     // entity 1
-    miscAndEntityType(0, LOCK),
-    xy(0, 16),
+    miscAndEntityType(0, BAT),
+    xy(96, 32),
 };
 
 
 
 const uint8_t PROGMEM officex_room4_6[] = {
-    1, // number of entities
+    3, // number of entities
 
     // entity 0
-    miscAndEntityType(HEART, CHEST),
-    xy(104, 40),
-};
-
-
-
-const uint8_t PROGMEM officex_room4_7[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SWITCH),
-    xy(64, 44),
+    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
+    xy(104, 36),
 
     // entity 1
-    miscAndEntityType(THREE_SWITCHES_ONE_BOOMERANG, SWITCH),
-    xy(64, 16),
+    miscAndEntityType(SLAM_SHUT, SKELETON),
+    xy(80, 40),
 
     // entity 2
-    miscAndEntityType(0, SWITCH),
-    xy(32, 16),
-
-    // entity 3
-    miscAndEntityType(0, SWITCH),
-    xy(48, 44),
+    miscAndEntityType(0, BAT),
+    xy(24, 20),
 };
 
 
 
 const uint8_t PROGMEM officex_room5_0[] = {
-    3, // number of entities
+    1, // number of entities
 
     // entity 0
-    miscAndEntityType(0, TORCH),
-    xy(24, 20),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(32, 12),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(8, 28),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_1[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(RING, CHEST),
-    xy(8, 60),
-
-    // entity 1
-    miscAndEntityType(0, SKELETON),
-    xy(32, 56),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_2[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(4, TELEPORTER),
-    xy(16, 40),
-
-    // entity 1
-    miscAndEntityType(0, LOCK),
-    xy(32, 60),
-
-    // entity 2
-    miscAndEntityType(0, LOCK),
-    xy(96, 32),
-
-    // entity 3
-    miscAndEntityType(0, SKELETON),
-    xy(48, 36),
-
-    // entity 4
-    miscAndEntityType(0, SKELETON),
-    xy(40, 36),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_3[] = {
-    5, // number of entities
-
-    // entity 0
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(56, 12),
-
-    // entity 1
-    miscAndEntityType(0, TORCH),
-    xy(24, 48),
-
-    // entity 2
-    miscAndEntityType(LAST_TORCH_OPENS_DOORS, TORCH),
-    xy(80, 48),
-
-    // entity 3
-    miscAndEntityType(KEY, POT),
-    xy(80, 20),
-
-    // entity 4
-    miscAndEntityType(0, SKELETON),
-    xy(96, 48),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_4[] = {
-    6, // number of entities
-
-    // entity 0
-    miscAndEntityType(BOMB, CHEST),
-    xy(16, 28),
-
-    // entity 1
-    miscAndEntityType(0, SPIKE),
-    xy(40, 8),
-
-    // entity 2
-    miscAndEntityType(0, LOCK),
-    xy(40, 60),
-
-    // entity 3
-    miscAndEntityType(0, SPIKE),
-    xy(40, 48),
-
-    // entity 4
-    miscAndEntityType(0, SPIKE),
-    xy(56, 8),
-
-    // entity 5
-    miscAndEntityType(0, SPIKE),
-    xy(56, 48),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_5[] = {
-    8, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(24, 0),
-
-    // entity 1
-    miscAndEntityType(0, SWITCH),
-    xy(88, 16),
-
-    // entity 2
-    miscAndEntityType(0, SWITCH),
-    xy(88, 36),
-
-    // entity 3
-    miscAndEntityType(0, SWITCH),
-    xy(56, 36),
-
-    // entity 4
-    miscAndEntityType(THREE_SWITCHES_ONE_BOOMERANG, HEART),
-    xy(96, 44),
-
-    // entity 5
-    miscAndEntityType(0, LOCK),
-    xy(16, 40),
-
-    // entity 6
-    miscAndEntityType(0, SNAKE),
-    xy(80, 44),
-
-    // entity 7
-    miscAndEntityType(0, SNAKE),
-    xy(40, 44),
+    miscAndEntityType(0, NEMESIS),
+    xy(72, 36),
 };
 
 
 
 const uint8_t PROGMEM officex_room5_6[] = {
-    6, // number of entities
-
-    // entity 0
-    miscAndEntityType(HEART, CHEST),
-    xy(96, 40),
-
-    // entity 1
-    miscAndEntityType(KEY, POT),
-    xy(16, 16),
-
-    // entity 2
-    miscAndEntityType(0, POT),
-    xy(32, 16),
-
-    // entity 3
-    miscAndEntityType(0, POT),
-    xy(64, 16),
-
-    // entity 4
-    miscAndEntityType(0, POT),
-    xy(80, 16),
-
-    // entity 5
-    miscAndEntityType(0, CHEST),
-    xy(72, 40),
-};
-
-
-
-const uint8_t PROGMEM officex_room5_7[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, BLOB),
-    xy(48, 36),
-
-    // entity 1
-    miscAndEntityType(0, LOCK),
-    xy(96, 32),
-
-    // entity 2
-    miscAndEntityType(OPEN_CHESTS_IN_RIGHT_ORDER, SUNKEN_BRIDGE),
-    xy(80, 28),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_0[] = {
     5, // number of entities
 
     // entity 0
-    miscAndEntityType(7, TELEPORTER),
-    xy(48, 60),
+    miscAndEntityType(HEART, CHEST),
+    xy(64, 28),
 
     // entity 1
-    miscAndEntityType(0, TORCH),
-    xy(80, 36),
+    miscAndEntityType(0, POT),
+    xy(24, 20),
 
     // entity 2
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(0, 32),
+    miscAndEntityType(0, POT),
+    xy(48, 20),
 
     // entity 3
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(104, 16),
+    miscAndEntityType(0, POT),
+    xy(88, 16),
 
     // entity 4
-    miscAndEntityType(0, SWITCH),
-    xy(24, 44),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_2[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SECRET_WALL),
-    xy(64, 32),
-
-    // entity 1
     miscAndEntityType(KEY, CHEST),
-    xy(80, 20),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_3[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SECRET_WALL),
-    xy(96, 16),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_4[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(0, 16),
-
-    // entity 1
-    miscAndEntityType(0, BAT),
-    xy(56, 32),
-
-    // entity 2
-    miscAndEntityType(0, BAT),
-    xy(64, 40),
-
-    // entity 3
-    miscAndEntityType(0, BAT),
-    xy(48, 44),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_5[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(LAST_ENEMY_HAS_KEY, SNAKE),
-    xy(16, 32),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(80, 20),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(96, 32),
+    xy(40, 24),
 };
 
 
 
 const uint8_t PROGMEM officex_room6_6[] = {
-    4, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, SECRET_WALL),
-    xy(0, 32),
-
-    // entity 1
-    miscAndEntityType(0, BAT),
-    xy(56, 24),
-
-    // entity 2
-    miscAndEntityType(0, BAT),
-    xy(24, 24),
-
-    // entity 3
-    miscAndEntityType(0, BAT),
-    xy(88, 24),
-};
-
-
-
-const uint8_t PROGMEM officex_room6_7[] = {
-    2, // number of entities
+    1, // number of entities
 
     // entity 0
     miscAndEntityType(0, LOCK),
-    xy(96, 16),
-
-    // entity 1
-    miscAndEntityType(0, BLOB_MOTHER),
-    xy(56, 44),
+    xy(96, 20),
 };
 
 
 
 const uint8_t PROGMEM officex_room7_0[] = {
-    2, // number of entities
+    3, // number of entities
 
     // entity 0
-    miscAndEntityType(0, TORCH),
-    xy(24, 12),
+    miscAndEntityType(BOSS_KEY, CHEST),
+    xy(24, 16),
 
     // entity 1
-    miscAndEntityType(KEY, CHEST),
-    xy(64, 32),
-};
-
-
-
-const uint8_t PROGMEM officex_room7_1[] = {
-    2, // number of entities
-
-    // entity 0
-    miscAndEntityType(VERTICAL, TRIGGER_DOOR),
-    xy(0, 16),
-
-    // entity 1
-    miscAndEntityType(0, TRIGGER_DOOR),
+    miscAndEntityType(4, TELEPORTER),
     xy(48, 60),
-};
 
-
-
-const uint8_t PROGMEM officex_room7_2[] = {
-    3, // number of entities
-
-    // entity 0
+    // entity 2
     miscAndEntityType(0, BOSS_LOCK),
-    xy(48, 4),
-
-    // entity 1
-    miscAndEntityType(BOMB, POT),
-    xy(24, 28),
-
-    // entity 2
-    miscAndEntityType(BOMB, POT),
-    xy(80, 28),
-};
-
-
-
-const uint8_t PROGMEM officex_room7_3[] = {
-    3, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, LOCK),
-    xy(48, 0),
-
-    // entity 1
-    miscAndEntityType(0, SNAKE),
-    xy(80, 44),
-
-    // entity 2
-    miscAndEntityType(0, SNAKE),
-    xy(16, 48),
-};
-
-
-
-const uint8_t PROGMEM officex_room7_5[] = {
-    1, // number of entities
-
-    // entity 0
-    miscAndEntityType(0, BLOB),
-    xy(48, 20),
+    xy(88, 24),
 };
 
 
 
 const uint8_t PROGMEM officex_room7_6[] = {
-    3, // number of entities
+    8, // number of entities
 
     // entity 0
-    miscAndEntityType(0, BOMB),
-    xy(32, 16),
+    miscAndEntityType(0, BAT),
+    xy(56, 48),
 
     // entity 1
-    miscAndEntityType(0, HEART),
-    xy(72, 16),
+    miscAndEntityType(0, SUNKEN_BRIDGE),
+    xy(72, 36),
 
     // entity 2
-    miscAndEntityType(6, TELEPORTER),
-    xy(48, 60),
-};
+    miscAndEntityType(0, BAT),
+    xy(16, 28),
 
+    // entity 3
+    miscAndEntityType(0, BLOB),
+    xy(40, 44),
 
+    // entity 4
+    miscAndEntityType(0, SKELETON),
+    xy(16, 44),
 
-const uint8_t PROGMEM officex_room7_7[] = {
-    3, // number of entities
+    // entity 5
+    miscAndEntityType(0, SKELETON),
+    xy(56, 20),
 
-    // entity 0
-    miscAndEntityType(0, KEY),
-    xy(80, 20),
+    // entity 6
+    miscAndEntityType(BOMB, CHEST),
+    xy(88, 32),
 
-    // entity 1
-    miscAndEntityType(0, SPIKE),
-    xy(48, 48),
-
-    // entity 2
-    miscAndEntityType(0, SPIKE),
-    xy(48, 8),
+    // entity 7
+    miscAndEntityType(0, SWITCH),
+    xy(88, 24),
 };
 
 const uint8_t PROGMEM officex_teleporters[] = {
     // dest x, dest y (in rooms)
-    4, 5,
     3, 2,
-    1, 3,
-    1, 4,
     1, 4,
     4, 1,
-    6, 1,
-    4, 3,
+    1, 3,
+    5, 0,
 };
 
 
@@ -1254,82 +381,82 @@ const uint8_t PROGMEM officex_teleporters[] = {
 
 
 const uint8_t * const PROGMEM officex_row0[8] = {
-    officex_room0_0,
+    empty_room,
     officex_room1_0,
     officex_room2_0,
     officex_room3_0,
     officex_room4_0,
     officex_room5_0,
-    officex_room6_0,
+    empty_room,
     officex_room7_0
 };
 
 
 const uint8_t * const PROGMEM officex_row1[8] = {
     officex_room0_1,
-    officex_room1_1,
-    officex_room2_1,
-    officex_room3_1,
-    officex_room4_1,
-    officex_room5_1,
     empty_room,
-    officex_room7_1
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room
 };
 
 
 const uint8_t * const PROGMEM officex_row2[8] = {
-    officex_room0_2,
-    officex_room1_2,
-    officex_room2_2,
+    empty_room,
+    empty_room,
+    empty_room,
     empty_room,
     officex_room4_2,
-    officex_room5_2,
-    officex_room6_2,
-    officex_room7_2
+    empty_room,
+    empty_room,
+    empty_room
 };
 
 
 const uint8_t * const PROGMEM officex_row3[8] = {
-    officex_room0_3,
-    officex_room1_3,
-    officex_room2_3,
-    officex_room3_3,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
     officex_room4_3,
-    officex_room5_3,
-    officex_room6_3,
-    officex_room7_3
+    empty_room,
+    empty_room,
+    empty_room
 };
 
 
 const uint8_t * const PROGMEM officex_row4[8] = {
-    officex_room0_4,
-    officex_room1_4,
-    officex_room2_4,
-    officex_room3_4,
     empty_room,
-    officex_room5_4,
-    officex_room6_4,
+    empty_room,
+    empty_room,
+    empty_room,
+    officex_room4_4,
+    empty_room,
+    empty_room,
     empty_room
 };
 
 
 const uint8_t * const PROGMEM officex_row5[8] = {
-    officex_room0_5,
-    officex_room1_5,
-    officex_room2_5,
-    officex_room3_5,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
     officex_room4_5,
-    officex_room5_5,
-    officex_room6_5,
-    officex_room7_5
+    empty_room,
+    empty_room,
+    empty_room
 };
 
 
 const uint8_t * const PROGMEM officex_row6[8] = {
-    officex_room0_6,
-    officex_room1_6,
-    officex_room2_6,
-    officex_room3_6,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
     officex_room4_6,
     officex_room5_6,
     officex_room6_6,
@@ -1338,14 +465,14 @@ const uint8_t * const PROGMEM officex_row6[8] = {
 
 
 const uint8_t * const PROGMEM officex_row7[8] = {
-    officex_room0_7,
-    officex_room1_7,
-    officex_room2_7,
-    officex_room3_7,
-    officex_room4_7,
-    officex_room5_7,
-    officex_room6_7,
-    officex_room7_7
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room,
+    empty_room
 };
 
 
