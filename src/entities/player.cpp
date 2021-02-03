@@ -283,7 +283,7 @@ void Player::receiveItemFromChest(Entity& chest) {
         }
 
         if (receivedItem == BOSS_KEY) {
-            State::gameState.bossKeys[State::gameState.currentDungeon] += 1;
+            State::gameState.bossKeys += 1;
             toast = gotBossKey_string;
         }
 
