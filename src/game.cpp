@@ -496,8 +496,12 @@ void Game::updateTitle(uint8_t frame) {
 }
 
 void Game::renderTitle(uint8_t frame) {
-    renderer.drawOverwrite(35, 11, titleText_tiles, 0);
+    renderer.drawOverwrite(35, 11, OfficeTextTitle_tiles, 0);
     // renderer.drawOverwrite(76, 7, titleKey_tiles, 0);
+    renderer.drawOverwrite(11, 10, AmsterdamX_tiles, 0);
+    renderer.drawOverwrite(11, 26, AmsterdamX_tiles, 0);
+    renderer.drawOverwrite(11, 42, AmsterdamX_tiles, 0);
+    
 
     const uint8_t* startGameLabel = State::hasUserSaved() ? continue_string : newGame_string;
 
