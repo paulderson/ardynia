@@ -236,7 +236,7 @@ const uint8_t PROGMEM office4_room1_4[] = {
 
     // entity 0
     miscAndEntityType(1, TELEPORTER),
-    xy(56, 24),
+    xy(48, 16),
 
     // entity 1
     miscAndEntityType(0, LOCK),
@@ -328,7 +328,7 @@ const uint8_t PROGMEM office4_room3_2[] = {
 
     // entity 0
     miscAndEntityType(3, TELEPORTER),
-    xy(56, 28),
+    xy(48, 16),
 };
 
 
@@ -360,7 +360,7 @@ const uint8_t PROGMEM office4_room4_1[] = {
 
     // entity 0
     miscAndEntityType(0, TELEPORTER),
-    xy(56, 28),
+    xy(48, 16),
 
     // entity 1
     miscAndEntityType(LAST_TORCH_OPENS_DOORS, TORCH),

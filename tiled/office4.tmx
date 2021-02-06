@@ -33,7 +33,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="entities">
-  <object id="127" name="elevator 0" type="TELEPORTER" x="503.878" y="93.764">
+  <object id="127" name="elevator 0" type="TELEPORTER" x="496.284" y="80.1146">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="5"/>
@@ -43,7 +43,7 @@
   <object id="141" name="secret wall" type="SECRET_WALL" x="744.807" y="98.4798">
    <point/>
   </object>
-  <object id="144" name="elevator 4" type="TELEPORTER" x="167.575" y="281.744">
+  <object id="144" name="elevator 4" type="TELEPORTER" x="161.346" y="271.253">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="2"/>
@@ -81,7 +81,7 @@
   <object id="159" name="secret wall" type="SECRET_WALL" x="547.649" y="370.324">
    <point/>
   </object>
-  <object id="160" name="elevator 3" type="TELEPORTER" x="392.131" y="157.635">
+  <object id="160" name="elevator 3" type="TELEPORTER" x="386.558" y="142.554">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="3"/>
