@@ -11,10 +11,10 @@ void triggerLock(Entity* me) {
 
 EntityType Lock::onCollide(Entity* me, Entity& other, Player& player) {
     if (other.type == PLAYER) {
-        if (me->type == LOCK && State::gameState.numKeys[State::gameState.currentDungeon] > 0) {
-            State::gameState.numKeys[State::gameState.currentDungeon] -= 1;
+        if (me->type == LOCK && State::gameState.numKeys > 0) {
+            State::gameState.numKeys -= 1;
             triggerLock(me);
-        } else if (me->type == BOSS_LOCK && State::gameState.bossKeys[State::gameState.currentDungeon] > 0) {
+        } else if (me->type == BOSS_LOCK && State::gameState.bossKeys > 0) {
             triggerLock(me);
         }
     }

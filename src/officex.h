@@ -212,7 +212,7 @@ const uint8_t PROGMEM officex_room4_3[] = {
 
     // entity 0
     miscAndEntityType(0, TELEPORTER),
-    xy(104, 44),
+    xy(104, 36),
 
     // entity 1
     miscAndEntityType(0, BAT),
@@ -240,7 +240,7 @@ const uint8_t PROGMEM officex_room4_5[] = {
 
     // entity 0
     miscAndEntityType(2, TELEPORTER),
-    xy(8, 44),
+    xy(0, 32),
 
     // entity 1
     miscAndEntityType(0, BAT),

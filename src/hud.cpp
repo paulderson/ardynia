@@ -47,10 +47,10 @@ void Hud::render(Player& player) {
     // the little 'B' indicator
     renderer.drawOverwrite(1, 13, hudBFrame_tiles, 0);
 
-    drawItemCount(key_plus_mask, 1, 48, State::gameState.numKeys[State::gameState.currentDungeon]);
+    drawItemCount(key_plus_mask, 1, 48, State::gameState.numKeys);
     drawItemCount(bomb_plus_mask, 0, 30, player.numBombs);
 
-    if (State::gameState.bossKeys[State::gameState.currentDungeon]) {
+    if (State::gameState.bossKeys) {
         renderer.drawPlusMask(0, 23, bossKey_plus_mask, 0, 0, Invert);
     }
 }

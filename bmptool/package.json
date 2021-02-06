@@ -13,7 +13,7 @@
   "author": "Matt Greer <matt.e.greer@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "canvas": "^1.6.11",
+    "canvas": "^2.6.1",
     "commander": "^2.17.1"
   }
 }

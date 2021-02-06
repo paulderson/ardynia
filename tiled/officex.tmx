@@ -41,7 +41,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="entities">
-  <object id="168" name="to third floor" type="TELEPORTER" x="552.254" y="235.044">
+  <object id="168" name="to third floor" type="TELEPORTER" x="550.379" y="226.374">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="3"/>
     <property name="DEST_ROOM_Y" type="int" value="2"/>
@@ -61,7 +61,7 @@
    </properties>
    <point/>
   </object>
-  <object id="278" name="to ground floor" type="TELEPORTER" x="452.904" y="363.355">
+  <object id="278" name="to ground floor" type="TELEPORTER" x="448.374" y="352.248">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="1"/>
@@ -104,7 +104,7 @@
    </properties>
    <point/>
   </object>
-  <object id="571" name="trigger door" type="TRIGGER_DOOR" x="550.187" y="420.617">
+  <object id="571" name="trigger door" type="TRIGGER_DOOR" x="550.187" y="417.498">
    <properties>
     <property name="MISC" value="VERTICAL"/>
    </properties>

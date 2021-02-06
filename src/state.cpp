@@ -65,13 +65,11 @@ void State::load() {
         gameState.hasSword = 0;
         gameState.numAcquiredItems = 0;
         gameState.currentDungeon = 0;
+        gameState.numKeys = 0;
+        gameState.bossKeys = 0;
 
         uint8_t i = 0;
-        for (; i < MAX_DUNGEON_COUNT; ++i) {
-            gameState.numKeys[i] = 0;
-            gameState.bossKeys[i] = 0;
-        }
-        
+
         for (i = 0; i < ROOM_STATE_BYTE_COUNT; ++i) {
             gameState.roomStates[i] = 0;
         }

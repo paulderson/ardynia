@@ -39,18 +39,12 @@ const uint8_t PROGMEM startingRooms[8] = {
 void Game::loadSave(bool straightToPlay) {
     State::load();
 
-    if (State::gameState.currentDungeon == 0 || State::gameState.currentDungeon > 3) {
-        State::gameState.currentDungeon = 0;
-        TileRoom::map = office4_map;
-        entityDefs = office4_entities;
-        doorDefs = office4_teleporters;
-        mapWidthInRooms = OFFICE4_WIDTH_IN_ROOMS;
-    } else {
-        TileRoom::map = officex_map;
-        entityDefs = officex_entities;
-        doorDefs = officex_teleporters;
-        mapWidthInRooms = OFFICEX_WIDTH_IN_ROOMS;
-    }
+    // Always start back in the main office map after death
+    State::gameState.currentDungeon = 0;
+    TileRoom::map = office4_map;
+    entityDefs = office4_entities;
+    doorDefs = office4_teleporters;
+    mapWidthInRooms = OFFICE4_WIDTH_IN_ROOMS;
 
     TileRoom::x = pgm_read_byte(startingRooms + State::gameState.currentDungeon * 2);
     TileRoom::y = pgm_read_byte(startingRooms + State::gameState.currentDungeon * 2 + 1);
@@ -503,7 +497,7 @@ void Game::updateTitle(uint8_t frame) {
 
 void Game::renderTitle(uint8_t frame) {
     renderer.drawOverwrite(35, 11, titleText_tiles, 0);
-    renderer.drawOverwrite(76, 7, titleKey_tiles, 0);
+    // renderer.drawOverwrite(76, 7, titleKey_tiles, 0);
 
     const uint8_t* startGameLabel = State::hasUserSaved() ? continue_string : newGame_string;
 

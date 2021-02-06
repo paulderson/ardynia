@@ -67,6 +67,7 @@ function getTileSizeFromFileName(name) {
  */
 module.exports = function buildTileArray(name, tileFile) {
     const { origWidth, origHeight } = getTileSizeFromFileName(name);
+    const { createCanvas } = require('canvas')
 
     const fileData = fs.readFileSync(tileFile);
     const img = new Image();
@@ -75,7 +76,7 @@ module.exports = function buildTileArray(name, tileFile) {
     const imgNW = img.width;
     const imgNH = img.height;
 
-    const canvas = new Canvas(img.width, img.height);
+    const canvas = createCanvas(img.width, img.height);
     const ctx = canvas.getContext("2d");
     ctx.drawImage(img, 0, 0, imgNW, imgNH);
 

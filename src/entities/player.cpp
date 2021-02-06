@@ -202,7 +202,7 @@ EntityType Player::onCollide(Entity& other, Entity& player) {
 
     if (other.type == KEY) { 
         other.type = UNSET;
-        State::gameState.numKeys[State::gameState.currentDungeon] += 1;
+        State::gameState.numKeys += 1;
         State::setCurrentRoomTriggered();
         Sfx::play(Sfx::successJingle);
         game->toast(gotKey_string);
@@ -278,12 +278,12 @@ void Player::receiveItemFromChest(Entity& chest) {
         }
 
         if (receivedItem == KEY) { 
-            State::gameState.numKeys[State::gameState.currentDungeon] += 1;
+            State::gameState.numKeys += 1;
             toast = gotKey_string;
         }
 
         if (receivedItem == BOSS_KEY) {
-            State::gameState.bossKeys[State::gameState.currentDungeon] += 1;
+            State::gameState.bossKeys += 1;
             toast = gotBossKey_string;
         }
 
