@@ -44,8 +44,10 @@ const EntityType SWITCH = 21;
 const EntityType POT = 22;
 const EntityType SUNKEN_BRIDGE = 23;
 const EntityType TORCH = 24;
+const EntityType HUMAN = 25;
+const EntityType GHOST = 26;
 
-const uint8_t NUM_ENTITIES = TORCH + 1;
+const uint8_t NUM_ENTITIES = GHOST + 1;
 
 // these are entities in a sense, but they don't fully participate
 // in the entity system

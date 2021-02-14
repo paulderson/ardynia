@@ -27,6 +27,8 @@
 #include "entities/switch.h"
 #include "entities/blobMother.h"
 #include "entities/nemesis.h"
+#include "entities/ghost.h"
+#include "entities/human.h"
 
 const uint8_t NUM_ENTITY_PROPS = 4;
 const uint8_t NUM_ENTITY_POINTERS = 3;
@@ -195,7 +197,19 @@ const uint8_t PROGMEM entityProperties[NUM_ENTITIES * NUM_ENTITY_PROPS] = {
     widthAndHeight(8, 8),
     healthAndDamage(1, 0),
     0,
-    false
+    false,
+
+    // 25, HUMAN
+    widthAndHeight(8, 8),
+    healthAndDamage(2, 0),
+    0,          // duration
+    true,       // needsMask
+
+    // 26, GHOST
+    widthAndHeight(8, 8),
+    healthAndDamage(1, 0),
+    11,
+    true
 };
 
 const void* const PROGMEM entityPointers[NUM_ENTITIES * NUM_ENTITY_POINTERS] = {
@@ -323,7 +337,17 @@ const void* const PROGMEM entityPointers[NUM_ENTITIES * NUM_ENTITY_POINTERS] = {
     // 24, TORCH
     torch_tiles,
     (void*)Torch::update,
-    (void*)Torch::onCollide
+    (void*)Torch::onCollide,
+
+    // 25, HUMAN
+    human_plus_mask,
+    (void*)Human::update,
+    NULL,
+
+    // 26, Ghost
+    ghost_plus_mask,
+    (void*)Ghost::update,
+    NULL
 };
 
 #endif

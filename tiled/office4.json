@@ -11,7 +11,7 @@
  "infinite":false,
  "layers":[
         {
-         "data":[2, 12, 12, 12, 12, 12, 12, 12, 12, 5, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 10, 2, 12, 12, 1, 12, 12, 10, 1, 1, 1, 1, 1, 1, 1, 3, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 6, 6, 1, 1, 6, 6, 6, 1, 8, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 3, 1, 6, 6, 6, 1, 1, 1, 1, 5, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 6, 6, 6, 1, 8, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 5, 4, 4, 4, 11, 9, 4, 4, 4, 1, 4, 4, 1, 4, 4, 4, 4, 4, 11, 9, 1, 4, 4, 4, 4, 11, 9, 4, 4, 4, 4, 4, 11, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 2, 12, 12, 12, 10, 2, 12, 12, 12, 1, 12, 10, 3, 12, 12, 12, 12, 12, 10, 5, 1, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 6, 6, 6, 1, 1, 1, 1, 3, 1, 1, 1, 13, 3, 6, 6, 6, 6, 1, 1, 1, 1, 6, 6, 1, 6, 13, 5, 1, 5, 8, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 6, 6, 6, 6, 1, 13, 3, 1, 1, 1, 1, 1, 13, 5, 1, 1, 1, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 1, 1, 1, 1, 1, 9, 4, 4, 4, 11, 9, 4, 4, 4, 1, 4, 11, 3, 1, 4, 4, 4, 4, 11, 5, 5, 5, 5, 5, 5, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 6, 6, 6, 1, 1, 1, 1, 2, 12, 12, 12, 10, 2, 12, 12, 12, 1, 5, 10, 3, 1, 5, 5, 5, 5, 5, 2, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 12, 12, 2, 10, 12, 12, 12, 10, 3, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 6, 6, 1, 1, 1, 1, 1, 1, 5, 8, 5, 5, 5, 3, 1, 1, 1, 1, 6, 13, 3, 6, 6, 1, 6, 6, 1, 1, 1, 1, 1, 6, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 3, 1, 1, 1, 13, 3, 6, 6, 1, 1, 6, 13, 3, 1, 1, 1, 5, 5, 5, 3, 1, 1, 1, 1, 6, 13, 3, 6, 6, 1, 6, 6, 1, 1, 1, 1, 1, 6, 1, 13, 9, 4, 4, 4, 4, 4, 5, 5, 1, 9, 4, 4, 4, 11, 9, 4, 4, 4, 1, 4, 11, 3, 1, 5, 5, 5, 5, 5, 9, 4, 4, 4, 1, 1, 13, 3, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 1, 1, 13, 5, 12, 12, 12, 12, 12, 5, 5, 1, 5, 5, 5, 5, 5, 2, 12, 12, 12, 1, 12, 10, 3, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1, 5, 5, 3, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 5, 5, 5, 3, 1, 1, 1, 6, 6, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 6, 6, 13, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 1, 7, 5, 5, 3, 6, 6, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 1, 1, 1, 1, 1, 6, 6, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 5, 5, 5, 9, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 11, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 1, 1, 1, 5, 5, 12, 12, 2, 10, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 7, 12, 12, 12, 12, 12, 12, 12, 10, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 8, 5, 4, 4, 5, 5, 6, 1, 1, 1, 10, 1, 2, 12, 10, 1, 1, 6, 1, 6, 1, 1, 1, 6, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 1, 9, 1, 11, 1, 1, 1, 1, 1, 6, 1, 1, 1, 6, 1, 1, 6, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 4, 1, 4, 4, 1, 4, 4, 1, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 12, 10, 1, 12, 10, 3, 12, 10, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 13, 1, 1, 13, 3, 1, 13, 3, 1, 6, 1, 1, 6, 1, 1, 6, 1, 13, 1, 6, 6, 6, 1, 1, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 13, 1, 1, 13, 3, 1, 13, 3, 1, 6, 1, 1, 6, 1, 1, 6, 1, 13, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 5, 4, 4, 4, 4, 4, 11, 9, 4, 4, 11, 4, 4, 11, 9, 4, 11, 9, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 4, 11, 4, 4, 4, 4, 4, 7, 4, 4, 4, 4, 4, 4, 4, 11],
+         "data":[2, 12, 12, 12, 12, 12, 12, 12, 12, 5, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 10, 3, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 6, 6, 1, 1, 6, 6, 6, 1, 8, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 6, 1, 1, 1, 1, 5, 1, 1, 1, 13, 5, 5, 5, 1, 1, 1, 1, 1, 6, 6, 1, 1, 8, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 5, 4, 4, 1, 11, 5, 1, 5, 4, 9, 4, 4, 1, 4, 4, 4, 4, 4, 11, 9, 1, 4, 4, 4, 4, 11, 9, 4, 4, 4, 4, 1, 5, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 5, 12, 12, 1, 10, 2, 1, 12, 12, 12, 12, 10, 3, 12, 12, 12, 12, 12, 10, 5, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1, 5, 3, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 6, 1, 1, 1, 1, 5, 1, 1, 1, 13, 3, 6, 6, 6, 6, 1, 1, 9, 1, 6, 6, 1, 6, 13, 5, 1, 5, 8, 5, 5, 5, 5, 1, 1, 1, 1, 1, 5, 3, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 6, 1, 1, 1, 1, 5, 1, 1, 1, 13, 3, 6, 6, 6, 6, 1, 13, 3, 1, 1, 1, 1, 1, 13, 5, 1, 1, 1, 5, 5, 5, 5, 1, 1, 1, 1, 1, 5, 3, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 5, 4, 4, 4, 11, 9, 4, 4, 4, 1, 4, 11, 3, 1, 4, 4, 4, 4, 11, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 9, 4, 4, 4, 4, 1, 11, 3, 1, 6, 6, 6, 1, 1, 1, 1, 5, 12, 12, 12, 10, 2, 12, 12, 12, 1, 5, 10, 3, 1, 5, 5, 5, 5, 5, 2, 12, 12, 12, 12, 12, 10, 2, 12, 12, 12, 12, 12, 12, 12, 2, 10, 12, 5, 1, 5, 3, 1, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 6, 6, 1, 1, 1, 1, 9, 1, 5, 8, 5, 5, 5, 3, 1, 1, 1, 1, 6, 13, 3, 6, 6, 1, 6, 6, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 5, 1, 1, 1, 13, 3, 6, 6, 1, 1, 6, 13, 3, 1, 1, 1, 5, 5, 5, 3, 1, 1, 1, 1, 6, 13, 3, 6, 6, 1, 6, 6, 1, 1, 1, 1, 1, 6, 6, 13, 9, 4, 4, 4, 4, 4, 5, 5, 1, 5, 4, 4, 4, 11, 9, 4, 4, 4, 1, 4, 11, 3, 1, 5, 5, 5, 5, 5, 9, 4, 4, 4, 1, 5, 5, 3, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 1, 1, 13, 5, 12, 12, 12, 12, 12, 5, 5, 1, 5, 5, 5, 5, 5, 2, 12, 12, 12, 1, 12, 10, 3, 1, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1, 5, 5, 3, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 5, 7, 5, 3, 1, 1, 1, 6, 6, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 1, 1, 6, 6, 1, 6, 6, 13, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 1, 1, 1, 5, 3, 6, 6, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 6, 1, 1, 1, 1, 1, 6, 6, 13, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 5, 5, 5, 9, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 11, 3, 1, 1, 1, 1, 1, 13, 3, 1, 5, 5, 5, 5, 5, 2, 5, 12, 12, 2, 10, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 5, 5, 12, 12, 12, 12, 7, 12, 12, 12, 12, 12, 12, 12, 10, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 8, 5, 5, 5, 3, 1, 6, 1, 1, 1, 10, 1, 2, 12, 10, 1, 1, 6, 1, 6, 1, 1, 6, 1, 5, 5, 1, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 6, 6, 1, 1, 1, 1, 1, 12, 12, 12, 12, 12, 12, 12, 12, 1, 9, 1, 11, 1, 1, 1, 1, 1, 6, 1, 1, 1, 6, 1, 6, 1, 5, 5, 1, 1, 1, 7, 1, 1, 1, 1, 1, 1, 1, 1, 13, 3, 1, 1, 1, 1, 1, 1, 4, 1, 4, 4, 1, 4, 4, 1, 4, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 7, 1, 5, 5, 5, 5, 1, 5, 5, 5, 3, 1, 1, 1, 1, 1, 13, 3, 1, 12, 10, 1, 12, 10, 3, 12, 10, 5, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 5, 5, 1, 1, 1, 7, 1, 5, 5, 5, 5, 1, 5, 5, 5, 3, 1, 6, 6, 1, 1, 13, 3, 1, 1, 13, 1, 1, 13, 3, 1, 13, 3, 1, 6, 1, 1, 6, 1, 1, 6, 1, 13, 1, 6, 6, 6, 1, 1, 5, 5, 1, 1, 7, 1, 1, 5, 5, 1, 1, 1, 1, 1, 5, 3, 1, 6, 1, 1, 1, 13, 3, 1, 1, 13, 1, 1, 13, 3, 1, 13, 3, 1, 6, 1, 1, 6, 1, 1, 6, 1, 13, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 7, 1, 1, 5, 5, 1, 1, 1, 1, 1, 5, 5, 4, 4, 4, 4, 4, 11, 9, 4, 4, 11, 4, 4, 11, 9, 4, 11, 9, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 8, 8, 4, 5, 5, 4, 4, 7, 7, 7, 5, 5, 5, 5, 5, 5, 5, 5],
          "height":24,
          "id":9,
          "name":"Tile Layer 1",
@@ -47,20 +47,8 @@
                  "type":"TELEPORTER",
                  "visible":true,
                  "width":0,
-                 "x":496.283582922824,
-                 "y":80.1145747126437
-                }, 
-                {
-                 "height":0,
-                 "id":141,
-                 "name":"secret wall",
-                 "point":true,
-                 "rotation":0,
-                 "type":"SECRET_WALL",
-                 "visible":true,
-                 "width":0,
-                 "x":744.807,
-                 "y":98.4798
+                 "x":496.284,
+                 "y":80.1146
                 }, 
                 {
                  "height":0,
@@ -82,20 +70,8 @@
                  "type":"TELEPORTER",
                  "visible":true,
                  "width":0,
-                 "x":161.345900268835,
-                 "y":271.252884663301
-                }, 
-                {
-                 "height":0,
-                 "id":147,
-                 "name":"secret wall",
-                 "point":true,
-                 "rotation":0,
-                 "type":"SECRET_WALL",
-                 "visible":true,
-                 "width":0,
-                 "x":707.267,
-                 "y":33.7053
+                 "x":161.346,
+                 "y":271.253
                 }, 
                 {
                  "height":0,
@@ -147,8 +123,8 @@
                  "type":"TELEPORTER",
                  "visible":true,
                  "width":0,
-                 "x":176.265,
-                 "y":236.104
+                 "x":194.172,
+                 "y":211.638
                 }, 
                 {
                  "height":0,
@@ -170,18 +146,6 @@
                 }, 
                 {
                  "height":0,
-                 "id":157,
-                 "name":"sunken bridge",
-                 "point":true,
-                 "rotation":0,
-                 "type":"SUNKEN_BRIDGE",
-                 "visible":true,
-                 "width":0,
-                 "x":739.047,
-                 "y":48.4532
-                }, 
-                {
-                 "height":0,
                  "id":159,
                  "name":"secret wall",
                  "point":true,
@@ -189,8 +153,8 @@
                  "type":"SECRET_WALL",
                  "visible":true,
                  "width":0,
-                 "x":547.649,
-                 "y":370.324
+                 "x":544.603,
+                 "y":352.53
                 }, 
                 {
                  "height":0,
@@ -212,38 +176,20 @@
                  "type":"TELEPORTER",
                  "visible":true,
                  "width":0,
-                 "x":386.557594977378,
-                 "y":142.554021703495
+                 "x":386.558,
+                 "y":142.554
                 }, 
                 {
                  "height":0,
                  "id":162,
                  "name":"blob",
                  "point":true,
-                 "properties":[
-                        {
-                         "name":"CONTAINED_TYPE",
-                         "type":"string",
-                         "value":"  "
-                        }],
                  "rotation":0,
                  "type":"BLOB",
                  "visible":true,
                  "width":0,
                  "x":248.368,
                  "y":368.962
-                }, 
-                {
-                 "height":0,
-                 "id":173,
-                 "name":"secret wall",
-                 "point":true,
-                 "rotation":0,
-                 "type":"SECRET_WALL",
-                 "visible":true,
-                 "width":0,
-                 "x":755.079,
-                 "y":25.987
                 }, 
                 {
                  "height":0,
@@ -278,8 +224,8 @@
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":532.231,
-                 "y":265.718
+                 "x":526.3,
+                 "y":264.916
                 }, 
                 {
                  "height":0,
@@ -296,8 +242,8 @@
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":209.709,
-                 "y":17.03
+                 "x":174.402,
+                 "y":81.8996
                 }, 
                 {
                  "height":0,
@@ -344,20 +290,14 @@
                  "type":"SWITCH",
                  "visible":true,
                  "width":0,
-                 "x":243.824,
-                 "y":209.442
+                 "x":373.824,
+                 "y":15.442
                 }, 
                 {
                  "height":0,
                  "id":211,
                  "name":"snake",
                  "point":true,
-                 "properties":[
-                        {
-                         "name":"CONTAINED_TYPE",
-                         "type":"string",
-                         "value":"  "
-                        }],
                  "rotation":0,
                  "type":"SNAKE",
                  "visible":true,
@@ -388,18 +328,12 @@
                  "id":228,
                  "name":"snake",
                  "point":true,
-                 "properties":[
-                        {
-                         "name":"CONTAINED_TYPE",
-                         "type":"string",
-                         "value":"  "
-                        }],
                  "rotation":0,
                  "type":"SNAKE",
                  "visible":true,
                  "width":0,
-                 "x":209.365,
-                 "y":81.7475
+                 "x":179.621,
+                 "y":117.776
                 }, 
                 {
                  "height":0,
@@ -410,8 +344,8 @@
                  "type":"SNAKE",
                  "visible":true,
                  "width":0,
-                 "x":268.635,
-                 "y":39.4421
+                 "x":277.276,
+                 "y":13.7105
                 }, 
                 {
                  "height":0,
@@ -458,8 +392,8 @@
                  "type":"SNAKE",
                  "visible":true,
                  "width":0,
-                 "x":239.098,
-                 "y":42.9066
+                 "x":241.978,
+                 "y":25.0481
                 }, 
                 {
                  "height":0,
@@ -471,7 +405,7 @@
                  "visible":true,
                  "width":0,
                  "x":12.22,
-                 "y":46.2174
+                 "y":44.2352
                 }, 
                 {
                  "height":0,
@@ -500,8 +434,8 @@
                  "type":"POT",
                  "visible":true,
                  "width":0,
-                 "x":64.5349,
-                 "y":49.847
+                 "x":51.8486,
+                 "y":8.61643
                 }, 
                 {
                  "height":0,
@@ -519,7 +453,7 @@
                  "visible":true,
                  "width":0,
                  "x":89.0345,
-                 "y":47.7132
+                 "y":44.1452
                 }, 
                 {
                  "height":0,
@@ -650,8 +584,8 @@
                  "type":"SWITCH",
                  "visible":true,
                  "width":0,
-                 "x":266.031,
-                 "y":210.429
+                 "x":396.031,
+                 "y":16.429
                 }, 
                 {
                  "height":0,
@@ -662,8 +596,8 @@
                  "type":"SWITCH",
                  "visible":true,
                  "width":0,
-                 "x":267.018,
-                 "y":219.897
+                 "x":397.018,
+                 "y":25.897
                 }, 
                 {
                  "height":0,
@@ -682,6 +616,12 @@
                  "id":255,
                  "name":"skeleton",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_KEY"
+                        }],
                  "rotation":0,
                  "type":"SKELETON",
                  "visible":true,
@@ -694,6 +634,12 @@
                  "id":256,
                  "name":"skeleton",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_KEY"
+                        }],
                  "rotation":0,
                  "type":"SKELETON",
                  "visible":true,
@@ -724,6 +670,12 @@
                  "id":258,
                  "name":"skeleton",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_KEY"
+                        }],
                  "rotation":0,
                  "type":"SKELETON",
                  "visible":true,
@@ -736,6 +688,12 @@
                  "id":259,
                  "name":"skeleton",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_KEY"
+                        }],
                  "rotation":0,
                  "type":"SKELETON",
                  "visible":true,
@@ -758,32 +716,44 @@
                  "type":"SNAKE",
                  "visible":true,
                  "width":0,
-                 "x":352.518,
-                 "y":14.3446
+                 "x":366.518,
+                 "y":77.3446
                 }, 
                 {
                  "height":0,
                  "id":261,
                  "name":"blob",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
                  "rotation":0,
                  "type":"BLOB",
                  "visible":true,
                  "width":0,
-                 "x":407.916,
-                 "y":19.883
+                 "x":410.916,
+                 "y":80.383
                 }, 
                 {
                  "height":0,
                  "id":262,
                  "name":"bat",
                  "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
                  "rotation":0,
                  "type":"BAT",
                  "visible":true,
                  "width":0,
-                 "x":407.638,
-                 "y":42.8069
+                 "x":416.638,
+                 "y":104.307
                 }, 
                 {
                  "height":0,
@@ -818,7 +788,7 @@
                         {
                          "name":"MISC",
                          "type":"string",
-                         "value":"LAST_ENEMY_HAS_BOSS_KEY"
+                         "value":"SLAM_SHUT"
                         }],
                  "rotation":0,
                  "type":"GIANT_BAT",
@@ -866,13 +836,13 @@
                  "type":"SWITCH",
                  "visible":true,
                  "width":0,
-                 "x":277.71,
-                 "y":229.4
+                 "x":407.71,
+                 "y":35.4
                 }, 
                 {
                  "height":0,
                  "id":270,
-                 "name":"chest",
+                 "name":"ring",
                  "point":true,
                  "properties":[
                         {
@@ -884,67 +854,31 @@
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":746.198,
-                 "y":280.577
-                }, 
-                {
-                 "height":0,
-                 "id":271,
-                 "name":"chest",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"CONTAINED_TYPE",
-                         "type":"string",
-                         "value":"HEART"
-                        }],
-                 "rotation":0,
-                 "type":"CHEST",
-                 "visible":true,
-                 "width":0,
-                 "x":155.989,
-                 "y":142.496
-                }, 
-                {
-                 "height":0,
-                 "id":272,
-                 "name":"chest",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"CONTAINED_TYPE",
-                         "type":"string",
-                         "value":"HEART"
-                        }],
-                 "rotation":0,
-                 "type":"CHEST",
-                 "visible":true,
-                 "width":0,
-                 "x":209.94,
-                 "y":147.261
+                 "x":726.935,
+                 "y":356.47
                 }, 
                 {
                  "height":0,
                  "id":273,
-                 "name":"chest",
+                 "name":"boss key",
                  "point":true,
                  "properties":[
                         {
                          "name":"CONTAINED_TYPE",
                          "type":"string",
-                         "value":"HEART"
+                         "value":"BOSS_KEY"
                         }],
                  "rotation":0,
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":602.868,
-                 "y":25.9763
+                 "x":614.798,
+                 "y":29.3848
                 }, 
                 {
                  "height":0,
                  "id":274,
-                 "name":"chest",
+                 "name":"heart",
                  "point":true,
                  "properties":[
                         {
@@ -956,8 +890,8 @@
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":172.317,
-                 "y":141.545
+                 "x":231.247,
+                 "y":262.176
                 }, 
                 {
                  "height":0,
@@ -979,26 +913,1143 @@
                 }, 
                 {
                  "height":0,
-                 "id":277,
-                 "name":"to key room",
+                 "id":278,
+                 "name":"trigger door",
+                 "point":true,
+                 "rotation":0,
+                 "type":"TRIGGER_DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":288.692,
+                 "y":192.497
+                }, 
+                {
+                 "height":0,
+                 "id":279,
+                 "name":"skeleton",
                  "point":true,
                  "properties":[
                         {
-                         "name":"DEST_ROOM_X",
-                         "type":"int",
-                         "value":7
-                        }, 
-                        {
-                         "name":"DEST_ROOM_Y",
-                         "type":"int",
-                         "value":0
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
                         }],
                  "rotation":0,
-                 "type":"TELEPORTER",
+                 "type":"SKELETON",
                  "visible":true,
                  "width":0,
-                 "x":609.809,
-                 "y":1.64603
+                 "x":244.976,
+                 "y":207.213
+                }, 
+                {
+                 "height":0,
+                 "id":280,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":269.093,
+                 "y":217.741
+                }, 
+                {
+                 "height":0,
+                 "id":281,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":285.762,
+                 "y":244.413
+                }, 
+                {
+                 "height":0,
+                 "id":282,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":324.233,
+                 "y":204.11
+                }, 
+                {
+                 "height":0,
+                 "id":283,
+                 "name":"trigger door",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"VERTICAL"
+                        }],
+                 "rotation":0,
+                 "type":"TRIGGER_DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":331.027,
+                 "y":144.69
+                }, 
+                {
+                 "height":0,
+                 "id":284,
+                 "name":"trigger door",
+                 "point":true,
+                 "rotation":0,
+                 "type":"TRIGGER_DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":288.692,
+                 "y":128.802
+                }, 
+                {
+                 "height":0,
+                 "id":285,
+                 "name":"blob_mother",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB_MOTHER",
+                 "visible":true,
+                 "width":0,
+                 "x":263.72,
+                 "y":77.5051
+                }, 
+                {
+                 "height":0,
+                 "id":286,
+                 "name":"trigger door",
+                 "point":true,
+                 "rotation":0,
+                 "type":"TRIGGER_DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":241.146,
+                 "y":65.0547
+                }, 
+                {
+                 "height":0,
+                 "id":287,
+                 "name":"trigger door",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"VERTICAL"
+                        }],
+                 "rotation":0,
+                 "type":"TRIGGER_DOOR",
+                 "visible":true,
+                 "width":0,
+                 "x":330.789,
+                 "y":80.5447
+                }, 
+                {
+                 "height":0,
+                 "id":288,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":236.317,
+                 "y":116.46
+                }, 
+                {
+                 "height":0,
+                 "id":289,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":307.241,
+                 "y":78.311
+                }, 
+                {
+                 "height":0,
+                 "id":291,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":263.451,
+                 "y":162.936
+                }, 
+                {
+                 "height":0,
+                 "id":292,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":318.269,
+                 "y":167.578
+                }, 
+                {
+                 "height":0,
+                 "id":293,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":284.204,
+                 "y":141.245
+                }, 
+                {
+                 "height":0,
+                 "id":294,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":236.922,
+                 "y":169.991
+                }, 
+                {
+                 "height":0,
+                 "id":295,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":278.025,
+                 "y":160.857
+                }, 
+                {
+                 "height":0,
+                 "id":296,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":298.174,
+                 "y":150.379
+                }, 
+                {
+                 "height":0,
+                 "id":297,
+                 "name":"lock",
+                 "point":true,
+                 "rotation":0,
+                 "type":"LOCK",
+                 "visible":true,
+                 "width":0,
+                 "x":722.046,
+                 "y":305.836
+                }, 
+                {
+                 "height":0,
+                 "id":298,
+                 "name":"secret wall",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SECRET_WALL",
+                 "visible":true,
+                 "width":0,
+                 "x":752.625,
+                 "y":128.635
+                }, 
+                {
+                 "height":0,
+                 "id":299,
+                 "name":"secret wall",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SECRET_WALL",
+                 "visible":true,
+                 "width":0,
+                 "x":241.594,
+                 "y":273.361
+                }, 
+                {
+                 "height":0,
+                 "id":300,
+                 "name":"key",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CONTAINED_TYPE",
+                         "type":"string",
+                         "value":"KEY"
+                        }],
+                 "rotation":0,
+                 "type":"CHEST",
+                 "visible":true,
+                 "width":0,
+                 "x":240.321,
+                 "y":49.939
+                }, 
+                {
+                 "height":0,
+                 "id":301,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":26.5001,
+                 "y":208.023
+                }, 
+                {
+                 "height":0,
+                 "id":302,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":85.0315,
+                 "y":231.791
+                }, 
+                {
+                 "height":0,
+                 "id":303,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":23.1856,
+                 "y":143.78
+                }, 
+                {
+                 "height":0,
+                 "id":304,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":49.7476,
+                 "y":175.892
+                }, 
+                {
+                 "height":0,
+                 "id":305,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":92.4236,
+                 "y":156.761
+                }, 
+                {
+                 "height":0,
+                 "id":306,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":95.3391,
+                 "y":97.3952
+                }, 
+                {
+                 "height":0,
+                 "id":307,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":46.8321,
+                 "y":75.0931
+                }, 
+                {
+                 "height":0,
+                 "id":308,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":20.8069,
+                 "y":101.36
+                }, 
+                {
+                 "height":0,
+                 "id":309,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":26.3572,
+                 "y":21.6737
+                }, 
+                {
+                 "height":0,
+                 "id":310,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":38.9031,
+                 "y":53.2885
+                }, 
+                {
+                 "height":0,
+                 "id":311,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":206.669,
+                 "y":112.82
+                }, 
+                {
+                 "height":0,
+                 "id":312,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":132.146,
+                 "y":370.711
+                }, 
+                {
+                 "height":0,
+                 "id":313,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":305.511,
+                 "y":271.446
+                }, 
+                {
+                 "height":0,
+                 "id":314,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":360.79,
+                 "y":300.639
+                }, 
+                {
+                 "height":0,
+                 "id":315,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":455.821,
+                 "y":270.825
+                }, 
+                {
+                 "height":0,
+                 "id":316,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":494.952,
+                 "y":281.384
+                }, 
+                {
+                 "height":0,
+                 "id":317,
+                 "name":"skeleton",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SKELETON",
+                 "visible":true,
+                 "width":0,
+                 "x":462.2,
+                 "y":295.949
+                }, 
+                {
+                 "height":0,
+                 "id":318,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":455.821,
+                 "y":326.105
+                }, 
+                {
+                 "height":0,
+                 "id":319,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":411.722,
+                 "y":278.279
+                }, 
+                {
+                 "height":0,
+                 "id":320,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":494.952,
+                 "y":281.384
+                }, 
+                {
+                 "height":0,
+                 "id":321,
+                 "name":"bat",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":585.172,
+                 "y":347.394
+                }, 
+                {
+                 "height":0,
+                 "id":322,
+                 "name":"bat",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":636.23,
+                 "y":357.786
+                }, 
+                {
+                 "height":0,
+                 "id":323,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":348.285,
+                 "y":364.963
+                }, 
+                {
+                 "height":0,
+                 "id":324,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":394.759,
+                 "y":342.812
+                }, 
+                {
+                 "height":0,
+                 "id":325,
+                 "name":"skeleton",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SKELETON",
+                 "visible":true,
+                 "width":0,
+                 "x":532.687,
+                 "y":362.369
+                }, 
+                {
+                 "height":0,
+                 "id":326,
+                 "name":"bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":198.916,
+                 "y":230.878
+                }, 
+                {
+                 "height":0,
+                 "id":327,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":26.7449,
+                 "y":266.582
+                }, 
+                {
+                 "height":0,
+                 "id":328,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":56.6896,
+                 "y":263.626
+                }, 
+                {
+                 "height":0,
+                 "id":329,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":297.166,
+                 "y":369.414
+                }, 
+                {
+                 "height":0,
+                 "id":330,
+                 "name":"bat",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":700.39,
+                 "y":82.6188
+                }, 
+                {
+                 "height":0,
+                 "id":331,
+                 "name":"bat",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":761.84,
+                 "y":88.4927
+                }, 
+                {
+                 "height":0,
+                 "id":332,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":615.14,
+                 "y":163.907
+                }, 
+                {
+                 "height":0,
+                 "id":333,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":698.844,
+                 "y":162.53
+                }, 
+                {
+                 "height":0,
+                 "id":334,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":662.582,
+                 "y":144.93
+                }, 
+                {
+                 "height":0,
+                 "id":335,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":758.938,
+                 "y":182.411
+                }, 
+                {
+                 "height":0,
+                 "id":336,
+                 "name":"snake",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":725.954,
+                 "y":239.342
+                }, 
+                {
+                 "height":0,
+                 "id":337,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":586.674,
+                 "y":215.868
+                }, 
+                {
+                 "height":0,
+                 "id":338,
+                 "name":"blob",
+                 "point":true,
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":615.592,
+                 "y":215.417
+                }, 
+                {
+                 "height":0,
+                 "id":339,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":472.923,
+                 "y":18.3482
+                }, 
+                {
+                 "height":0,
+                 "id":340,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":535.857,
+                 "y":47.988
+                }, 
+                {
+                 "height":0,
+                 "id":341,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":487.337,
+                 "y":34.5892
+                }, 
+                {
+                 "height":0,
+                 "id":342,
+                 "name":"bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":515.173,
+                 "y":14.7703
+                }, 
+                {
+                 "height":0,
+                 "id":343,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":705.919,
+                 "y":30.3467
+                }, 
+                {
+                 "height":0,
+                 "id":346,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":755.608,
+                 "y":32.0626
+                }, 
+                {
+                 "height":0,
+                 "id":347,
+                 "name":"bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":761.33,
+                 "y":55.9866
+                }, 
+                {
+                 "height":0,
+                 "id":348,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"SLAM_SHUT"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":523.045,
+                 "y":50.0186
+                }, 
+                {
+                 "height":0,
+                 "id":349,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":687.918,
+                 "y":31.9442
+                }, 
+                {
+                 "height":0,
+                 "id":350,
+                 "name":"giant bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"GIANT_BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":732.002,
+                 "y":31.9442
+                }, 
+                {
+                 "height":0,
+                 "id":351,
+                 "name":"snake",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"SNAKE",
+                 "visible":true,
+                 "width":0,
+                 "x":49.7553,
+                 "y":223.115
+                }, 
+                {
+                 "height":0,
+                 "id":352,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":16.8908,
+                 "y":234.83
+                }, 
+                {
+                 "height":0,
+                 "id":353,
+                 "name":"blob",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BLOB",
+                 "visible":true,
+                 "width":0,
+                 "x":71.2704,
+                 "y":216.217
+                }, 
+                {
+                 "height":0,
+                 "id":354,
+                 "name":"bat",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"MISC",
+                         "type":"string",
+                         "value":"LAST_ENEMY_HAS_HEART_CONTAINER"
+                        }],
+                 "rotation":0,
+                 "type":"BAT",
+                 "visible":true,
+                 "width":0,
+                 "x":37.6033,
+                 "y":230.332
+                }, 
+                {
+                 "height":0,
+                 "id":355,
+                 "name":"secret wall",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SECRET_WALL",
+                 "visible":true,
+                 "width":0,
+                 "x":642.041,
+                 "y":49.8031
+                }, 
+                {
+                 "height":0,
+                 "id":356,
+                 "name":"heart",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"CONTAINED_TYPE",
+                         "type":"string",
+                         "value":"HEART"
+                        }],
+                 "rotation":0,
+                 "type":"CHEST",
+                 "visible":true,
+                 "width":0,
+                 "x":594.308,
+                 "y":86.0346
+                }, 
+                {
+                 "height":0,
+                 "id":357,
+                 "name":"secret wall",
+                 "point":true,
+                 "rotation":0,
+                 "type":"SECRET_WALL",
+                 "visible":true,
+                 "width":0,
+                 "x":225.462,
+                 "y":272.917
+                }, 
+                {
+                 "height":0,
+                 "id":358,
+                 "name":"ghost",
+                 "point":true,
+                 "rotation":0,
+                 "type":"GHOST",
+                 "visible":true,
+                 "width":0,
+                 "x":122.94,
+                 "y":140.156
+                }, 
+                {
+                 "height":0,
+                 "id":359,
+                 "name":"human",
+                 "point":true,
+                 "rotation":0,
+                 "type":"HUMAN",
+                 "visible":true,
+                 "width":0,
+                 "x":123.838,
+                 "y":162.595
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1480,7 +2531,7 @@
          "y":0
         }],
  "nextlayerid":10,
- "nextobjectid":278,
+ "nextobjectid":360,
  "orientation":"orthogonal",
  "renderorder":"right-down",
  "tiledversion":"1.4.3",

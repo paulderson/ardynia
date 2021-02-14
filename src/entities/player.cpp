@@ -12,7 +12,7 @@
 extern Renderer renderer;
 extern Arduboy2Base arduboy;
 
-const uint8_t PLAYER_VELOCITY = 2;
+const uint8_t PLAYER_VELOCITY = 1;
 
 void Player::reset() {
     moveTo(WIDTH / 2 - width, HEIGHT / 2 - height, true);
@@ -172,6 +172,17 @@ EntityType Player::update(Entity& player, uint8_t frame) {
 }
 
 EntityType Player::onCollide(Entity& other, Entity& player) {
+    if (other.type == CHEST) {
+        undoMove();
+        receiveItemFromChest(other);
+        return UNSET;
+    }
+
+    // if ((other.type == HUMAN) || (other.type == GHOST)) {
+    //     undoMove();
+    //     return UNSET;
+    // }
+
     if (other.type == CHEST) {
         undoMove();
         receiveItemFromChest(other);
