@@ -16,7 +16,7 @@ extern Arduboy2Base arduboy;
 const uint8_t ROOM_TRANSITION_VELOCITY = 2;
 const uint8_t ROOM_WIDTH_PX = WIDTH - 16;
 const uint8_t ROOM_HEIGHT_PX = HEIGHT;
-const uint8_t FINAL_BOSS_ROOM = 59;
+const uint8_t FINAL_BOSS_ROOM = 57;
 
 const uint8_t PLAY_GAME = 0;
 const uint8_t SFX_ON_OFF = 1;
