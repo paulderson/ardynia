@@ -47,4 +47,3 @@ void loop() {
     game.render(loopCounter);
     arduboy.display();
 }
-

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="56" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="631">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="56" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="636">
  <editorsettings>
   <export target="officex.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" source="office4.tsx"/>
  <layer id="10" name="Tile Layer 1" width="56" height="32">
   <data encoding="csv">
-7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,2,12,12,12,12,12,10,2,12,8,12,8,12,10,
-7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,5,5,5,3,1,1,1,1,1,13,3,1,1,5,1,1,13,
-7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13,3,1,9,1,11,1,13,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,2,12,12,12,12,12,10,2,12,12,12,12,12,10,
+7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,5,5,5,3,1,1,1,1,1,13,3,1,1,1,1,1,13,
+7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13,3,1,1,1,1,1,13,
 7,7,7,7,7,7,7,7,7,1,1,1,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,9,1,4,4,4,4,11,9,4,1,4,1,4,11,
 7,7,7,7,7,7,7,7,7,1,1,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,1,5,7,1,7,7,7,7,7,2,12,1,12,1,12,10,
 7,7,7,7,7,7,7,7,1,1,7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,1,5,7,1,7,7,7,7,7,3,1,1,1,1,1,13,
@@ -57,7 +57,7 @@
   </object>
   <object id="278" name="to ground floor" type="TELEPORTER" x="448.374" y="352.248">
    <properties>
-    <property name="DEST_ROOM_X" type="int" value="4"/>
+    <property name="DEST_ROOM_X" type="int" value="5"/>
     <property name="DEST_ROOM_Y" type="int" value="1"/>
    </properties>
    <point/>
@@ -246,16 +246,24 @@
   <object id="628" name="boss lock" type="BOSS_LOCK" x="753.342" y="97.8735">
    <point/>
   </object>
-  <object id="629" name="To fourth floor" type="TELEPORTER" x="833.465" y="3.57184">
-   <properties>
-    <property name="DEST_ROOM_X" type="int" value="1"/>
-    <property name="DEST_ROOM_Y" type="int" value="3"/>
-   </properties>
-   <point/>
-  </object>
   <object id="630" name="trigger door" type="TRIGGER_DOOR" x="785.882" y="97.2426">
    <properties>
     <property name="MISC" value="VERTICAL"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="632" name="key puzzle chest" type="CHEST" x="840" y="24">
+   <point/>
+  </object>
+  <object id="633" name="key puzzle chest" type="CHEST" x="808" y="24">
+   <point/>
+  </object>
+  <object id="634" name="key puzzle chest" type="CHEST" x="872" y="24">
+   <point/>
+  </object>
+  <object id="635" name="null" type="SUNKEN_BRIDGE" x="865.781" y="36.8803">
+   <properties>
+    <property name="MISC" value="OPEN_CHESTS_IN_RIGHT_ORDER"/>
    </properties>
    <point/>
   </object>
