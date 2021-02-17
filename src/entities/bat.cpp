@@ -60,7 +60,8 @@ EntityType Bat::onCollide(Entity* me, Entity& other, Entity& player) {
         if (me->health == 0) {
             if (me->type == GIANT_BAT) {
                 game.emergeAllBridges();
-                State::setCurrentRoomTriggered();
+                // Removing this trigger as I am not treating bosses differently than other enemies
+                // State::setCurrentRoomTriggered();
             }
 
             me->type = UNSET;
