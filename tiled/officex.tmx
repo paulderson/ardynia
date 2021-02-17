@@ -171,10 +171,10 @@
   <object id="598" name="sunken bridge" type="SUNKEN_BRIDGE" x="641.034" y="482.622">
    <point/>
   </object>
-  <object id="599" name="switch" type="SWITCH" x="607.977" y="488.142">
+  <object id="599" name="switch" type="SWITCH" x="614.217" y="502.378">
    <point/>
   </object>
-  <object id="600" name="switch" type="SWITCH" x="631.633" y="389.264">
+  <object id="600" name="switch" type="SWITCH" x="594.396" y="419.914">
    <point/>
   </object>
   <object id="601" name="sunken bridge" type="SUNKEN_BRIDGE" x="625.038" y="418.412">
@@ -210,7 +210,7 @@
   <object id="612" name="bat" type="BAT" x="718.736" y="459.481">
    <point/>
   </object>
-  <object id="613" name="bat" type="BAT" x="687.517" y="488.882">
+  <object id="613" name="bat" type="BAT" x="703.102" y="485.34">
    <point/>
   </object>
   <object id="614" name="boss lock" type="BOSS_LOCK" x="577.316" y="33.1681">

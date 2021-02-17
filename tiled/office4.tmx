@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="49" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="376">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="49" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="385">
  <editorsettings>
   <export target="office4.json" format="json"/>
  </editorsettings>
@@ -22,8 +22,8 @@
 3,1,1,1,1,1,13,3,1,5,5,5,7,5,3,1,1,1,6,6,13,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,6,1,1,6,6,1,6,6,13,
 3,1,6,6,1,1,13,3,1,1,1,1,1,5,3,6,6,1,1,1,13,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,6,6,1,1,1,1,1,6,6,13,
 3,1,1,1,1,1,13,3,1,5,5,5,5,5,9,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,11,
-3,1,1,1,1,1,13,3,1,5,5,5,5,5,2,5,12,12,2,10,12,12,12,12,12,12,12,12,12,12,12,12,12,12,5,5,12,12,12,12,7,12,12,12,12,12,12,12,10,
-3,1,6,6,1,1,13,3,1,1,8,5,5,5,3,1,6,1,1,1,10,1,2,12,10,1,1,6,1,6,1,1,6,1,5,5,1,1,1,1,7,1,1,1,1,1,1,1,13,
+3,1,1,1,1,1,13,3,1,5,8,5,5,5,2,5,12,12,2,10,12,12,12,12,12,12,12,12,12,12,12,12,12,12,5,5,12,12,12,12,7,12,12,12,12,12,12,12,10,
+3,1,6,6,1,1,13,3,1,1,1,5,5,5,3,1,6,1,1,1,10,1,2,12,10,1,1,6,1,6,1,1,6,1,5,5,1,1,1,1,7,1,1,1,1,1,1,1,13,
 3,1,6,6,1,1,1,1,1,12,12,12,12,12,12,12,12,1,9,1,11,1,1,1,1,1,6,1,1,1,6,1,6,1,5,5,1,1,1,7,1,1,1,1,1,1,1,1,13,
 3,1,1,1,1,1,1,4,1,4,4,1,4,4,1,4,4,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,1,1,1,7,1,5,5,5,5,1,5,5,5,
 3,1,1,1,1,1,13,3,1,12,10,1,12,10,3,12,10,5,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,1,1,1,7,1,5,5,5,5,1,5,5,5,
@@ -40,7 +40,7 @@
    </properties>
    <point/>
   </object>
-  <object id="144" name="elevator 4" type="TELEPORTER" x="162.33" y="265.219">
+  <object id="144" name="elevator 4" type="TELEPORTER" x="161.644" y="257.9">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="2"/>
@@ -106,7 +106,7 @@
    </properties>
    <point/>
   </object>
-  <object id="199" name="lock" type="LOCK" x="144.686" y="272.451">
+  <object id="199" name="lock" type="LOCK" x="161.152" y="273.366">
    <point/>
   </object>
   <object id="201" name="switch" type="SWITCH" x="373.824" y="15.442">
@@ -344,9 +344,15 @@
    <point/>
   </object>
   <object id="288" name="snake" type="SNAKE" x="236.317" y="116.46">
+   <properties>
+    <property name="MISC" value="SLAM_SHUT"/>
+   </properties>
    <point/>
   </object>
   <object id="289" name="snake" type="SNAKE" x="307.241" y="78.311">
+   <properties>
+    <property name="MISC" value="SLAM_SHUT"/>
+   </properties>
    <point/>
   </object>
   <object id="291" name="snake" type="SNAKE" x="263.451" y="162.936">
@@ -445,7 +451,7 @@
   <object id="313" name="blob" type="BLOB" x="305.511" y="271.446">
    <point/>
   </object>
-  <object id="314" name="blob" type="BLOB" x="360.79" y="300.639">
+  <object id="314" name="blob" type="BLOB" x="363.306" y="296.751">
    <point/>
   </object>
   <object id="315" name="blob" type="BLOB" x="455.821" y="270.825">
@@ -457,7 +463,7 @@
   <object id="317" name="skeleton" type="SKELETON" x="462.2" y="295.949">
    <point/>
   </object>
-  <object id="318" name="blob" type="BLOB" x="455.821" y="326.105">
+  <object id="318" name="blob" type="BLOB" x="475.489" y="335.482">
    <point/>
   </object>
   <object id="319" name="blob" type="BLOB" x="411.722" y="278.279">
@@ -475,7 +481,7 @@
   <object id="323" name="blob" type="BLOB" x="348.285" y="364.963">
    <point/>
   </object>
-  <object id="324" name="snake" type="SNAKE" x="394.759" y="342.812">
+  <object id="324" name="snake" type="SNAKE" x="395.445" y="357.22">
    <point/>
   </object>
   <object id="325" name="skeleton" type="SKELETON" x="532.687" y="362.369">
@@ -610,10 +616,10 @@
   <object id="357" name="secret wall" type="SECRET_WALL" x="225.462" y="272.917">
    <point/>
   </object>
-  <object id="358" name="ghost" type="GHOST" x="122.94" y="140.156">
+  <object id="358" name="ghost" type="GHOST" x="209.855" y="144.851">
    <point/>
   </object>
-  <object id="359" name="human" type="HUMAN" x="123.838" y="162.595">
+  <object id="359" name="human" type="HUMAN" x="205.995" y="165.663">
    <point/>
   </object>
   <object id="360" name="secret wall" type="SECRET_WALL" x="682.711" y="12.9638">

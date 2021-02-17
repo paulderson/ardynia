@@ -316,7 +316,7 @@ const uint8_t PROGMEM officex_room5_6[] = {
 
     // entity 2
     miscAndEntityType(0, SWITCH),
-    xy(72, 4),
+    xy(32, 36),
 
     // entity 3
     miscAndEntityType(0, SUNKEN_BRIDGE),
@@ -334,7 +334,7 @@ const uint8_t PROGMEM officex_room5_7[] = {
 
     // entity 1
     miscAndEntityType(0, SWITCH),
-    xy(48, 40),
+    xy(56, 56),
 
     // entity 2
     miscAndEntityType(0, BAT),
@@ -410,7 +410,7 @@ const uint8_t PROGMEM officex_room6_7[] = {
 
     // entity 1
     miscAndEntityType(0, BAT),
-    xy(16, 40),
+    xy(32, 36),
 };
 
 
