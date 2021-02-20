@@ -200,13 +200,13 @@ const uint8_t PROGMEM entityProperties[NUM_ENTITIES * NUM_ENTITY_PROPS] = {
     false,
 
     // 25, HUMAN
-    widthAndHeight(8, 8),
+    widthAndHeight(16, 16),
     healthAndDamage(2, 0),
     0,          // duration
     true,       // needsMask
 
     // 26, GHOST
-    widthAndHeight(8, 8),
+    widthAndHeight(16, 16),
     healthAndDamage(1, 0),
     11,
     true
@@ -344,8 +344,8 @@ const void* const PROGMEM entityPointers[NUM_ENTITIES * NUM_ENTITY_POINTERS] = {
     (void*)Human::update,
     NULL,
 
-    // 26, Ghost
-    ghost_plus_mask,
+    // 26, Ghost, uses the same human mask
+    human_plus_mask,
     (void*)Ghost::update,
     NULL
 };

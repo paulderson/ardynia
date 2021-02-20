@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="56" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="636">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="56" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="639">
  <editorsettings>
   <export target="officex.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" source="office4.tsx"/>
  <layer id="10" name="Tile Layer 1" width="56" height="32">
   <data encoding="csv">
-7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,2,12,12,12,12,12,10,2,12,12,12,12,12,10,
+7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,2,12,12,12,12,12,10,8,12,12,12,12,12,10,
 7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,5,5,5,3,1,1,1,1,1,13,3,1,1,1,1,1,13,
 7,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13,3,1,1,1,1,1,13,
 7,7,7,7,7,7,7,7,7,1,1,1,7,7,7,7,7,7,7,7,7,7,7,7,7,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,1,5,9,1,4,4,4,4,11,9,4,1,4,1,4,11,
@@ -34,7 +34,7 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,7,7,1,7,7,7,5,1,1,1,1,1,1,1,1,1,1,7,1,5,1,1,1,1,7,1,13,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,7,7,1,1,1,1,1,1,1,7,7,7,7,7,7,7,7,7,1,1,1,1,1,1,7,1,13,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,5,5,5,5,7,7,7,1,7,7,7,7,7,7,7,1,7,7,7,7,7,7,7,7,
-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,12,12,12,12,12,10,5,1,1,1,1,7,7,7,1,1,1,7,1,12,12,12,12,12,12,12,5,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,12,12,12,12,12,10,5,7,7,7,1,7,7,7,1,1,1,7,1,12,12,12,12,12,12,12,5,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,7,7,7,1,7,1,7,7,7,7,7,7,7,7,1,5,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,1,1,1,1,7,1,1,1,7,1,1,1,1,1,1,1,1,1,1,5,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,5,5,5,5,7,7,7,7,7,5,5,5,5,5,5,5,5,5,5,5,5
@@ -89,7 +89,7 @@
   <object id="568" name="skeleton" type="SKELETON" x="836.332" y="404.617">
    <point/>
   </object>
-  <object id="570" name="chest with bombs" type="CHEST" x="875.427" y="415.372">
+  <object id="570" name="chest with bombs" type="CHEST" x="875.786" y="406.031">
    <properties>
     <property name="CONTAINED_TYPE" value="BOMB"/>
    </properties>
@@ -138,7 +138,7 @@
    </properties>
    <point/>
   </object>
-  <object id="586" name="switch" type="SWITCH" x="870.447" y="406.359">
+  <object id="586" name="switch" type="SWITCH" x="876.554" y="419.173">
    <point/>
   </object>
   <object id="587" name="bat" type="BAT" x="134.667" y="12.6663">
@@ -235,12 +235,18 @@
    <point/>
   </object>
   <object id="625" name="blob mother" type="BLOB_MOTHER" x="708.128" y="14.3669">
+   <properties>
+    <property name="MISC" value="SLAM_SHUT"/>
+   </properties>
    <point/>
   </object>
   <object id="626" name="trigger door" type="TRIGGER_DOOR" x="848.799" y="64.6657">
    <point/>
   </object>
   <object id="627" name="giant bat" type="GIANT_BAT" x="740.628" y="41.3669">
+   <properties>
+    <property name="MISC" value="SLAM_SHUT"/>
+   </properties>
    <point/>
   </object>
   <object id="628" name="boss lock" type="BOSS_LOCK" x="753.342" y="97.8735">
@@ -265,6 +271,16 @@
    <properties>
     <property name="MISC" value="OPEN_CHESTS_IN_RIGHT_ORDER"/>
    </properties>
+   <point/>
+  </object>
+  <object id="636" name="To fourth floor" type="TELEPORTER" x="787.029" y="3.56836">
+   <properties>
+    <property name="DEST_ROOM_X" type="int" value="4"/>
+    <property name="DEST_ROOM_Y" type="int" value="0"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="638" name="trigger door" type="TRIGGER_DOOR" x="689.224" y="65.3409">
    <point/>
   </object>
  </objectgroup>

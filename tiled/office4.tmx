@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="49" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="385">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="49" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="388">
  <editorsettings>
   <export target="office4.json" format="json"/>
  </editorsettings>
@@ -11,8 +11,8 @@
 3,1,6,6,6,1,1,1,1,5,1,1,1,13,5,5,5,1,1,1,1,1,6,6,1,1,8,13,3,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,13,
 3,1,1,1,1,1,1,1,1,5,4,4,1,11,5,1,5,4,9,4,4,1,4,4,4,4,4,11,9,4,4,1,4,4,11,9,1,4,4,4,4,5,9,4,4,4,4,4,11,
 3,1,1,1,1,1,1,1,1,5,12,12,1,10,2,1,12,12,12,12,10,3,12,12,12,12,12,10,2,12,12,1,12,12,10,5,1,5,5,5,5,5,2,12,12,12,12,12,10,
-3,1,6,6,6,1,1,1,1,5,1,1,1,13,3,6,6,6,6,1,1,9,1,6,6,1,6,13,3,1,1,1,1,1,13,5,1,5,1,5,5,5,3,1,1,1,1,1,13,
-3,1,6,6,6,1,1,1,1,5,1,1,1,13,3,6,6,6,6,1,13,3,1,1,1,1,1,13,3,1,1,1,1,1,1,1,1,1,1,5,5,5,3,1,1,1,1,1,13,
+3,1,6,6,6,1,1,1,1,5,1,1,1,13,3,6,6,6,6,1,1,9,1,6,6,1,6,13,3,1,1,1,1,1,13,5,1,5,8,5,5,5,3,1,1,1,1,1,13,
+3,1,6,6,6,1,1,1,1,5,1,1,1,13,3,6,6,6,6,1,13,3,1,1,1,1,1,13,3,1,1,1,1,1,13,5,1,1,1,5,5,5,3,1,1,1,1,1,13,
 3,1,1,1,1,1,1,1,1,5,4,4,4,11,9,4,4,4,1,4,11,3,1,4,4,4,4,11,9,4,4,4,4,4,11,5,5,5,5,5,5,5,9,4,4,4,4,1,11,
 3,1,6,6,6,1,1,1,1,5,12,12,12,10,2,12,12,12,1,5,10,3,1,5,5,5,5,5,2,12,12,12,12,12,10,2,12,12,12,12,12,12,12,2,10,12,5,1,5,
 3,1,6,6,6,1,1,1,1,1,1,1,1,13,3,6,6,1,1,1,1,9,1,5,8,5,5,5,3,1,1,1,1,6,13,3,6,6,1,6,6,1,1,1,1,1,1,1,13,
@@ -33,7 +33,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="entities">
-  <object id="127" name="elevator 0" type="TELEPORTER" x="608.28" y="80.1146">
+  <object id="127" name="elevator 0" type="TELEPORTER" x="610.284" y="81.2079">
    <properties>
     <property name="DEST_ROOM_X" type="int" value="4"/>
     <property name="DEST_ROOM_Y" type="int" value="5"/>
@@ -280,7 +280,7 @@
   <object id="269" name="switch" type="SWITCH" x="407.71" y="35.4">
    <point/>
   </object>
-  <object id="270" name="ring" type="CHEST" x="726.935" y="356.47">
+  <object id="270" name="ring" type="CHEST" x="754.255" y="345.636">
    <properties>
     <property name="CONTAINED_TYPE" value="RING"/>
    </properties>
@@ -616,12 +616,6 @@
   <object id="357" name="secret wall" type="SECRET_WALL" x="225.462" y="272.917">
    <point/>
   </object>
-  <object id="358" name="ghost" type="GHOST" x="209.855" y="144.851">
-   <point/>
-  </object>
-  <object id="359" name="human" type="HUMAN" x="205.995" y="165.663">
-   <point/>
-  </object>
   <object id="360" name="secret wall" type="SECRET_WALL" x="682.711" y="12.9638">
    <point/>
   </object>
@@ -649,7 +643,7 @@
   <object id="368" name="human" type="HUMAN" x="467.358" y="84.2538">
    <point/>
   </object>
-  <object id="369" name="human" type="HUMAN" x="532.642" y="84.5647">
+  <object id="369" name="human" type="GHOST" x="532.642" y="84.5647">
    <point/>
   </object>
   <object id="370" name="human" type="HUMAN" x="473.575" y="101.974">
@@ -658,7 +652,7 @@
   <object id="371" name="human" type="HUMAN" x="545.699" y="93.891">
    <point/>
   </object>
-  <object id="372" name="human" type="HUMAN" x="462.695" y="111.3">
+  <object id="372" name="human" type="GHOST" x="462.695" y="111.3">
    <point/>
   </object>
   <object id="373" name="human" type="HUMAN" x="537.305" y="118.14">
@@ -668,6 +662,12 @@
    <point/>
   </object>
   <object id="375" name="human" type="HUMAN" x="491.606" y="116.274">
+   <point/>
+  </object>
+  <object id="386" name="trigger door" type="TRIGGER_DOOR" x="192.859" y="58.382">
+   <point/>
+  </object>
+  <object id="387" name="human" type="HUMAN" x="491.956" y="84.1079">
    <point/>
   </object>
  </objectgroup>
