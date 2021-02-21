@@ -12,7 +12,7 @@
 extern Renderer renderer;
 extern Arduboy2Base arduboy;
 
-const uint8_t PLAYER_VELOCITY = 2;
+const uint8_t PLAYER_VELOCITY = 1;
 
 void Player::reset() {
     moveTo(WIDTH / 2 - width, HEIGHT / 2 - height, true);
