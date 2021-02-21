@@ -4,7 +4,9 @@
 #include "player.h"
 
 void triggerLock(Entity* me) {
-    State::setCurrentRoomTriggered();
+    if (me->type == LOCK) {
+        State::setCurrentRoomTriggered();
+    }
     me->type = UNSET;
     Sfx::play(Sfx::pickUpItem);
 }
