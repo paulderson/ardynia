@@ -824,15 +824,11 @@ const uint8_t PROGMEM office4_room5_5[] = {
 
 
 const uint8_t PROGMEM office4_room6_0[] = {
-    2, // number of entities
+    1, // number of entities
 
     // entity 0
     miscAndEntityType(HEART, CHEST),
-    xy(56, 36),
-
-    // entity 1
-    miscAndEntityType(0, SECRET_WALL),
-    xy(8, 12),
+    xy(72, 16),
 };
 
 

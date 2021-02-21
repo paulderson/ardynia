@@ -607,16 +607,13 @@
    </properties>
    <point/>
   </object>
-  <object id="356" name="heart" type="CHEST" x="727.266" y="35.7908">
+  <object id="356" name="heart" type="CHEST" x="740.414" y="17.6472">
    <properties>
     <property name="CONTAINED_TYPE" value="HEART"/>
    </properties>
    <point/>
   </object>
   <object id="357" name="secret wall" type="SECRET_WALL" x="225.462" y="272.917">
-   <point/>
-  </object>
-  <object id="360" name="secret wall" type="SECRET_WALL" x="682.711" y="12.9638">
    <point/>
   </object>
   <object id="361" name="boss lock" type="BOSS_LOCK" x="480.293" y="32.6173">

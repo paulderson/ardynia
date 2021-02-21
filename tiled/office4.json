@@ -1940,8 +1940,8 @@
                  "type":"CHEST",
                  "visible":true,
                  "width":0,
-                 "x":727.266,
-                 "y":35.7908
+                 "x":740.413515119642,
+                 "y":17.6472291348935
                 }, 
                 {
                  "height":0,
@@ -1954,18 +1954,6 @@
                  "width":0,
                  "x":225.462,
                  "y":272.917
-                }, 
-                {
-                 "height":0,
-                 "id":360,
-                 "name":"secret wall",
-                 "point":true,
-                 "rotation":0,
-                 "type":"SECRET_WALL",
-                 "visible":true,
-                 "width":0,
-                 "x":682.711,
-                 "y":12.9638
                 }, 
                 {
                  "height":0,
