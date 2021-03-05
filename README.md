@@ -1,7 +1,7 @@
 # AMS Office 
 
 
-![screenshot](https://raw.githubusercontent.com/city41/ardynia/master/screenshot.png)
+![screenshot](https://github.com/paulderson/amsoffice/raw/master/screenshot.png)
 
 An adventure game for the [Arduboy](http://arduboy.com)
 
