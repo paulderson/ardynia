@@ -1,15 +1,15 @@
-# Ardynia
+# AMS Office 
 
 
 ![screenshot](https://raw.githubusercontent.com/city41/ardynia/master/screenshot.png)
 
 An adventure game for the [Arduboy](http://arduboy.com)
 
-Website for the game is at https://www.city41.games/ardynia
+Forked from [Ardynia](https://www.city41.games/ardynia)
 
 ## How to play
 
-see https://www.city41.games/ardynia/help
+Controls for the game are at https://www.city41.games/ardynia/help
 
 ## How to build - Arduino IDE
 
@@ -19,9 +19,7 @@ It should build just as-is in the Arduino IDE. If not, please let me know. I hav
 
 The makefile is expecting to find the Arduino IDE at `$HOME/.arduino_ide`. I followed [this blog post](https://jonblack.me/how-to-program-the-arduino-using-vim/) to set it all up.
 
-I am building the game on Ubuntu. I also suspect Mac OSX would work fine. No idea about Windows.
-
-If all is setup correctly, then `make` will build the game, and `make clean` deletes the build artifacts. There is also `make emu` to launch the game in ProjectABE, but that is specific to my machine and unlikely to work for anyone else (TODO, fix this)
+If all is setup correctly, then `make` will build the game, and `make clean` deletes the build artifacts.
 
 ## Generating Assets
 
@@ -80,27 +78,19 @@ If the maps change size, these constants need to be updated, at the top of `src/
 
 ### Graphics
 
-The graphics for Ardynia are custom generated to work with `src/drawBitmap.cpp`. This is a different draw bitmap function from what is found in Arduboy2 or ArdBitmap. The main difference is for `plus mask` mode, the entire masks are interlaced between the frames. Arduboy2 interlaces mask bytes with frame bytes instead. `make bmp` will generate the proper sprite data to feed to `src/drawBitmap`.
+The graphics for AMS Office are custom generated to work with `src/drawBitmap.cpp`. This is a different draw bitmap function from what is found in Arduboy2 or ArdBitmap. The main difference is for `plus mask` mode, the entire masks are interlaced between the frames. Arduboy2 interlaces mask bytes with frame bytes instead. `make bmp` will generate the proper sprite data to feed to `src/drawBitmap`.
 
 #### spritePngs
 
-poorly named, these are really graphics that need a mask. The resulting variable name will be `<filename>_plus_mask`.
+Poorly named, these are really graphics that need a mask. The resulting variable name will be `<filename>_plus_mask`.
 
 #### tilePngs
 
-poorly named, these are graphics that don't need a mask. The resulting variable name will be `<filename>_tiles`
+Poorly named, these are graphics that don't need a mask. The resulting variable name will be `<filename>_tiles`
 
 Some things that really are sprites are found in tilePngs, such as explosion. This is to save bytes by only generating masks when they are really needed.
 
 ### Strings
 
 Edit the strings `strings.json` then run `make strings`. The resulting `src/strings.h` will have arrays in it suited for rendering with `Renderer#drawString`
-
-## Gotchas
-
-* The code is pretty bad in some areas, my apologies. I figured this game out as I went. Also sometimes hard to follow/read code is chosen due to byte savings.
-
-## Still TODO
-
-Hopefully nothing. The game is finished. But always the chance of a bug cropping up.
 
