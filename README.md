@@ -7,17 +7,16 @@ An adventure game for the [Arduboy](http://arduboy.com)
 
 Forked from [Ardynia](https://www.city41.games/ardynia)
 
+Playable online [here](https://amsoffice.elephantbreath.com/)
+
 ## How to play
 
 Controls for the game are at https://www.city41.games/ardynia/help
 
 ## How to build - Arduino IDE
 
-It should build just as-is in the Arduino IDE. If not, please let me know. I have had success building the game with 1.8.5 and 1.8.6. I now use 1.8.6 for developing the game.
-
+It should build just as-is in the Arduino IDE. If not, please let me know. I have had success building the game with 1.8.6.
 ## How to build - Makefile
-
-The makefile is expecting to find the Arduino IDE at `$HOME/.arduino_ide`. I followed [this blog post](https://jonblack.me/how-to-program-the-arduino-using-vim/) to set it all up.
 
 If all is setup correctly, then `make` will build the game, and `make clean` deletes the build artifacts.
 
